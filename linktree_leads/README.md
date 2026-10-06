@@ -31,6 +31,10 @@ Linktree has no public directory, so seeds come from elsewhere:
   trivial and honour it (`do_not_contact`), keep only what you need, and delete on request.
   Some countries (e.g. Germany, Italy) are stricter on unsolicited email; a short personal
   message beats a mass blast. Get advice from someone who knows your jurisdiction.
+- **robots.txt:** `linktr.ee/robots.txt` disallows all generic crawlers (`User-agent: *  Disallow: /`), including
+  profile pages and the profile directory. The tool now checks robots.txt and refuses to fetch such URLs, so
+  `scrape` on linktr.ee is blocked by default. `api.mixcloud.com` is also disallowed for crawlers (it is a documented
+  developer API), so `mixcloud` needs an explicit `--use-api`. `www.mixcloud.com` profile pages are allowed.
 - **Linktree ToS** restricts automated scraping. This tool is polite (identifying user agent,
   delay between requests, stops on HTTP 429) and is meant for modest batches, not bulk harvesting.
   Set a real contact address in `UA` at the top of `leads.py`.

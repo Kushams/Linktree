@@ -57,7 +57,28 @@ def git(*args):
     return subprocess.run(["git", "-C", str(SEEN.parent), *args], capture_output=True, text=True)
 
 
+_ROBOTS = {}
+
+
+def robots_ok(url):
+    """Honour robots.txt for the host (unreachable robots.txt = allowed)."""
+    from urllib.robotparser import RobotFileParser
+    pu = urlparse(url)
+    host = f"{pu.scheme}://{pu.netloc}"
+    if host not in _ROBOTS:
+        rp = RobotFileParser()
+        try:
+            req = urllib.request.Request(host + "/robots.txt", headers={"User-Agent": UA})
+            rp.parse(urllib.request.urlopen(req, timeout=15).read().decode("utf-8", "replace").splitlines())
+        except Exception:
+            rp.parse([])
+        _ROBOTS[host] = rp
+    return _ROBOTS[host].can_fetch(UA, url)
+
+
 def fetch(url):
+    if not robots_ok(url):
+        raise PermissionError(f"blocked by robots.txt: {url}")
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "en"})
     with urllib.request.urlopen(req, timeout=20) as r:
         return r.read().decode("utf-8", "replace")
@@ -215,6 +236,9 @@ def mx_get(url):
 
 def cmd_mixcloud(a):
     import random, urllib.parse
+    if not a.use_api:
+        sys.exit("api.mixcloud.com's robots.txt disallows crawlers (the API is documented for developers). "
+                 "Re-run with --use-api only if you accept that.")
     c = db()
     if a.git_sync:
         git("pull", "--rebase", "--autostash")
@@ -250,13 +274,7 @@ def cmd_mixcloud(a):
                 phones = {re.sub(r"[^\d+]", "", x) for x in PHONE_RE.findall(bio)}
                 socials = set()
                 for m in re.findall(r"linktr\.ee/[\w.]+", bio):
-                    try:
-                        lt = parse(fetch("https://" + m), "https://" + m)
-                        if lt:
-                            emails.update(lt["emails"]); phones.update(lt["phones"]); socials.update(lt["socials"])
-                        time.sleep(a.delay)
-                    except Exception:
-                        pass
+                    socials.add("https://" + m)  # recorded only; linktr.ee disallows crawlers
                 emails = sorted(e for e in emails if e not in sup)
                 if not emails:
                     continue
@@ -298,6 +316,7 @@ if __name__ == "__main__":
     x.add_argument("--flush", action="store_true", help="also write a partial batch"); x.set_defaults(f=cmd_batch)
     x = s.add_parser("mixcloud"); x.add_argument("--queries", type=int, default=20); x.add_argument("--pages", type=int, default=2)
     x.add_argument("--delay", type=float, default=0.4); x.add_argument("--europe-only", action="store_true", default=True)
-    x.add_argument("--git-sync", action="store_true"); x.set_defaults(f=cmd_mixcloud)
+    x.add_argument("--git-sync", action="store_true"); x.add_argument("--use-api", action="store_true")
+    x.set_defaults(f=cmd_mixcloud)
     x = s.add_parser("mark"); x.add_argument("email"); x.add_argument("status", choices=["new", "contacted", "replied", "declined", "do_not_contact"]); x.set_defaults(f=cmd_mark)
     a = p.parse_args(); a.f(a)
