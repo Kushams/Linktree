@@ -37,6 +37,10 @@ def db():
       status TEXT DEFAULT 'new');
     CREATE TABLE IF NOT EXISTS suppressed(email TEXT PRIMARY KEY, added TEXT);
     """)
+    try:
+        c.execute("ALTER TABLE leads ADD COLUMN batch INTEGER")
+    except sqlite3.OperationalError:
+        pass
     return c
 
 
@@ -159,6 +163,30 @@ def cmd_export(a):
     print(f"wrote {len(rows)} rows to {a.out}")
 
 
+COLS = "username name country emails phones socials bio source_url status first_seen".split()
+
+
+def cmd_batch(a):
+    """Write full batches of --size email leads (Europe/unknown country) not yet exported."""
+    c = db()
+    out = Path(a.outdir); out.mkdir(parents=True, exist_ok=True)
+    n = (c.execute("SELECT COALESCE(MAX(batch),0) FROM leads").fetchone()[0])
+    made = 0
+    while True:
+        rows = c.execute(f"SELECT {','.join(COLS)} FROM leads WHERE batch IS NULL AND emails!='' "
+                         "ORDER BY first_seen LIMIT ?", (a.size,)).fetchall()
+        if len(rows) < a.size and not (a.flush and rows and not made):
+            break
+        n += 1; made += 1
+        path = out / f"batch_{n:03d}.csv"
+        with open(path, "w", newline="", encoding="utf-8-sig") as f:
+            w = csv.writer(f); w.writerow(COLS); w.writerows(rows)
+        c.executemany("UPDATE leads SET batch=? WHERE username=?", [(n, r[0]) for r in rows]); c.commit()
+        print(f"wrote {path} ({len(rows)} leads)")
+    pend = c.execute("SELECT COUNT(*) FROM leads WHERE batch IS NULL AND emails!=''").fetchone()[0]
+    print(f"{made} batch(es) written; {pend} email leads waiting for the next batch of {a.size}")
+
+
 def cmd_mark(a):
     c = db()
     c.execute("UPDATE leads SET status=? WHERE ';'||emails||';' LIKE ?", (a.status, f"%;{a.email.lower()};%"))
@@ -174,5 +202,7 @@ if __name__ == "__main__":
     x.add_argument("--refresh", action="store_true", help="re-scrape handles already in the ledger")
     x.add_argument("--git-sync", action="store_true", help="pull ledger first, commit+push it after"); x.set_defaults(f=cmd_scrape)
     x = s.add_parser("export"); x.add_argument("out"); x.add_argument("--status"); x.add_argument("--with-email", action="store_true"); x.set_defaults(f=cmd_export)
+    x = s.add_parser("batch"); x.add_argument("outdir"); x.add_argument("--size", type=int, default=500)
+    x.add_argument("--flush", action="store_true", help="also write a partial batch"); x.set_defaults(f=cmd_batch)
     x = s.add_parser("mark"); x.add_argument("email"); x.add_argument("status", choices=["new", "contacted", "replied", "declined", "do_not_contact"]); x.set_defaults(f=cmd_mark)
     a = p.parse_args(); a.f(a)
