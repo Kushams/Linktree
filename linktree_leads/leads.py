@@ -96,6 +96,7 @@ def parse(html, url):
     for t in texts:
         emails.update(EMAIL_RE.findall(t))
         phones.update(re.sub(r"[^\d+]", "", p) for p in PHONE_RE.findall(t))
+    phones = {p for p in phones if len(re.sub(r"\D", "", p)) >= 8}
     emails = {e.lower() for e in emails if not e.lower().endswith(BAD_EMAIL_SUFFIX)}
     return dict(username=pp.get("username") or acct.get("username"), name=pp.get("pageTitle"),
                 bio=(pp.get("description") or "").replace("\n", " "), country=(acct.get("country") or "").upper(),
