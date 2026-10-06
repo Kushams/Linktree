@@ -36,3 +36,14 @@ Linktree has no public directory, so seeds come from elsewhere:
   Set a real contact address in `UA` at the top of `leads.py`.
 - Prefer addresses artists list for **booking/management**. Don't scrape private/gated pages.
 - `leads.db` and CSVs are git-ignored - they contain personal data.
+
+## Shared "already scraped" ledger (multi-agent)
+`data/seen.txt` is a sorted list of Linktree handles that have been scraped. It is committed,
+so any agent/machine that pulls the repo skips them *before* fetching (no wasted requests, no
+duplicate outreach). `.gitattributes` uses a union merge so parallel agents adding lines don't conflict.
+
+`scrape --git-sync` pulls the ledger first and commits+pushes it afterwards. Use `--refresh` to re-scrape.
+
+**Only handles are committed.** Emails/phones live in the git-ignored `leads.db`/CSVs. This repo is
+public - never commit contact details here. If you want contact data shared across agents, make the
+repo private first or use a private store (Supabase/Drive).

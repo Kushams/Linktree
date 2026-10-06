@@ -8,12 +8,14 @@ Usage:
 
 Stdlib only. State lives in leads.db so repeat runs only add/refresh.
 """
-import argparse, csv, json, re, sqlite3, sys, time, urllib.request, urllib.error
+import argparse, csv, json, re, sqlite3, subprocess, sys, time, urllib.request, urllib.error
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlparse, unquote
 
 DB = Path(__file__).with_name("leads.db")
+# Committed to git so every agent/machine shares it. Handles only - no contact details.
+SEEN = Path(__file__).resolve().parent.parent / "data" / "seen.txt"
 UA = "GalleryOutreachBot/1.0 (+contact: set-your-email-here)"
 EUROPE = set("""AL AD AT BY BE BA BG HR CY CZ DK EE FI FR DE GR HU IS IE IT XK LV LI LT LU MT
 MD MC ME NL MK NO PL PT RO SM RS SK SI ES SE CH UA GB VA""".split())
@@ -36,6 +38,19 @@ def db():
     CREATE TABLE IF NOT EXISTS suppressed(email TEXT PRIMARY KEY, added TEXT);
     """)
     return c
+
+
+def load_seen():
+    return set(SEEN.read_text().split()) if SEEN.exists() else set()
+
+
+def save_seen(names):
+    SEEN.parent.mkdir(exist_ok=True)
+    SEEN.write_text("\n".join(sorted(names | load_seen())) + "\n")
+
+
+def git(*args):
+    return subprocess.run(["git", "-C", str(SEEN.parent), *args], capture_output=True, text=True)
 
 
 def fetch(url):
@@ -85,9 +100,15 @@ def parse(html, url):
 
 def cmd_scrape(a):
     c = db()
+    if a.git_sync:
+        git("pull", "--rebase", "--autostash")
+    ledger = load_seen()
     urls = [u for u in (norm_url(l) for l in Path(a.seeds).read_text().splitlines()) if u]
+    todo = [u for u in dict.fromkeys(urls) if a.refresh or u.rsplit("/", 1)[1].lower() not in ledger]
+    print(f"{len(urls) - len(todo)} already scraped (skipped), {len(todo)} to fetch")
     seen = skipped = 0
-    for i, u in enumerate(dict.fromkeys(urls)):
+    new_names = set()
+    for i, u in enumerate(todo):
         if i:
             time.sleep(a.delay)
         try:
@@ -102,7 +123,7 @@ def cmd_scrape(a):
         if not d or not d["username"]:
             continue
         if a.europe_only and d["country"] and d["country"] not in EUROPE:
-            skipped += 1; continue
+            skipped += 1; new_names.add(u.rsplit("/", 1)[1].lower()); continue
         sup = {r[0] for r in c.execute("SELECT email FROM suppressed")}
         d["emails"] = [e for e in d["emails"] if e not in sup]
         row = c.execute("SELECT 1 FROM leads WHERE username=?", (d["username"],)).fetchone()
@@ -115,7 +136,12 @@ def cmd_scrape(a):
             c.execute("INSERT INTO leads(name,bio,country,source_url,emails,phones,socials,last_seen,username,first_seen) VALUES(?,?,?,?,?,?,?,?,?,?)",
                       vals + (d["username"], now()))
         c.commit(); seen += 1
+        new_names.add(u.rsplit("/", 1)[1].lower())
         print(f"{d['username']:30} {d['country'] or '--':3} emails={len(d['emails'])} phones={len(d['phones'])}")
+    save_seen(new_names)
+    if a.git_sync and new_names:
+        git("add", str(SEEN)); git("commit", "-m", f"Ledger: +{len(new_names)} scraped handles")
+        r = git("push"); print("ledger pushed" if r.returncode == 0 else f"push failed: {r.stderr.strip()}")
     print(f"done: {seen} saved, {skipped} skipped (non-Europe)")
 
 
@@ -144,7 +170,9 @@ def cmd_mark(a):
 if __name__ == "__main__":
     p = argparse.ArgumentParser(); s = p.add_subparsers(required=True)
     x = s.add_parser("scrape"); x.add_argument("seeds"); x.add_argument("--europe-only", action="store_true")
-    x.add_argument("--delay", type=float, default=3.0); x.set_defaults(f=cmd_scrape)
+    x.add_argument("--delay", type=float, default=3.0)
+    x.add_argument("--refresh", action="store_true", help="re-scrape handles already in the ledger")
+    x.add_argument("--git-sync", action="store_true", help="pull ledger first, commit+push it after"); x.set_defaults(f=cmd_scrape)
     x = s.add_parser("export"); x.add_argument("out"); x.add_argument("--status"); x.add_argument("--with-email", action="store_true"); x.set_defaults(f=cmd_export)
     x = s.add_parser("mark"); x.add_argument("email"); x.add_argument("status", choices=["new", "contacted", "replied", "declined", "do_not_contact"]); x.set_defaults(f=cmd_mark)
     a = p.parse_args(); a.f(a)
