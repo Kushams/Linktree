@@ -254,7 +254,8 @@ def mx_users(q, page):
 
 
 def mx_profile(user):
-    h = fetch(f"https://www.mixcloud.com/{user}/")
+    import urllib.parse
+    h = fetch(f"https://www.mixcloud.com/{urllib.parse.quote(user)}/")
     t = re.search(r"<title>(.*?)</title>", h, re.S)
     name = re.sub(r"\s*\|\s*Mixcloud\s*$", "", t.group(1)).strip() if t else user
     m = re.search(r'"description":"((?:[^"\\]|\\.)*)"', h)
