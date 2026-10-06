@@ -228,17 +228,48 @@ CITIES = ["Berlin", "London", "Amsterdam", "Paris", "Madrid", "Barcelona", "Lisb
 MXDONE = SEEN.with_name("mixcloud_queries_done.txt")
 
 
-def mx_get(url):
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=20) as r:
-        return json.load(r)
+POS_RE = re.compile(r"(?<![a-z])(dj|d\.j\.|producer|musician|composer|band|singer|songwriter|rapper|mc|vocalist|"
+                    r"beatmaker|guitarist|pianist|drummer|violinist|live act|live performer|artist|selector)(?![a-z])", re.I)
+NEG_RE = re.compile(r"ticket|agency|agentur|promotion|booking (platform|service)|plateforme|platform|marketplace|"
+                    r"festival|venue|radio station|community radio|\bstore\b|\bshop\b|rental|courses?\b|\bschool\b|"
+                    r"lessons|equipment|wedding (planner|service)|\bnetwork\b|\bpromo\b", re.I)
+
+
+def is_artist(name, bio):
+    """Heuristic: performer wording present and no agency/shop/venue wording."""
+    text = f"{name or ''} {bio or ''}"
+    return bool(POS_RE.search(text) or re.search(r"(?<![a-z])dj", (name or "").lower())) and not NEG_RE.search(text)
+
+
+MX_RESERVED = {"signup", "login", "premium", "genres", "trending", "community", "plans", "developers", "discover",
+               "search", "live", "upload", "about", "pro", "jobs", "terms", "privacy", "tag", "popular", "help",
+               "settings", "notifications", "dashboard", "select", "go-pro", "creators", "blog", "press", "contact"}
+
+
+def mx_users(q, page):
+    import urllib.parse
+    h = fetch("https://www.mixcloud.com/search/?" + urllib.parse.urlencode(
+        {"mixcloud_query": q, "type": "user", "page": page}))
+    return [u for u in dict.fromkeys(re.findall(r'href="/([A-Za-z0-9_\-]+)/"', h)) if u.lower() not in MX_RESERVED]
+
+
+def mx_profile(user):
+    h = fetch(f"https://www.mixcloud.com/{user}/")
+    t = re.search(r"<title>(.*?)</title>", h, re.S)
+    name = re.sub(r"\s*\|\s*Mixcloud\s*$", "", t.group(1)).strip() if t else user
+    m = re.search(r'"description":"((?:[^"\\]|\\.)*)"', h)
+    try:
+        bio = json.loads('"' + m.group(1) + '"') if m else ""
+    except Exception:
+        bio = m.group(1) if m else ""
+    c = re.search(r"<!-- -->, <!-- -->([^<>]+)</p>", h)
+    return dict(name=name, bio=bio.replace("\n", " "), country=(c.group(1).strip() if c else ""),
+                url=f"https://www.mixcloud.com/{user}/")
 
 
 def cmd_mixcloud(a):
-    import random, urllib.parse
-    if not a.use_api:
-        sys.exit("api.mixcloud.com's robots.txt disallows crawlers (the API is documented for developers). "
-                 "Re-run with --use-api only if you accept that.")
+    """Discover Mixcloud artists via www.mixcloud.com search pages (allowed by robots.txt)."""
+    import random
     c = db()
     if a.git_sync:
         git("pull", "--rebase", "--autostash")
@@ -250,51 +281,46 @@ def cmd_mixcloud(a):
     sup = {r[0] for r in c.execute("SELECT email FROM suppressed")}
     new_names, saved, checked = set(), 0, 0
     for q in queries:
-        for page in range(a.pages):
+        for page in range(1, a.pages + 1):
             try:
-                d = mx_get("https://api.mixcloud.com/search/?" + urllib.parse.urlencode(
-                    {"q": q, "type": "user", "limit": 50, "offset": page * 50}))
+                users = mx_users(q, page)
             except Exception as e:
                 print(f"search {q!r}: {e}", file=sys.stderr); break
-            for u in d.get("data", []):
-                key = "mixcloud:" + u["username"].lower()
+            if not users:
+                break
+            for user in users:
+                key = "mixcloud:" + user.lower()
                 if key in ledger or key in new_names:
                     continue
                 time.sleep(a.delay)
                 try:
-                    p = mx_get(f"https://api.mixcloud.com/{urllib.parse.quote(u['username'])}/")
-                except Exception:
-                    continue
+                    p = mx_profile(user)
+                except Exception as e:
+                    print(f"{user}: {e}", file=sys.stderr); continue
                 checked += 1; new_names.add(key)
-                iso = EU_NAMES.get(p.get("country") or "", "")
-                if not iso and (p.get("country") or a.europe_only):
+                iso = EU_NAMES.get(p["country"], "")
+                if not iso:
                     continue
-                bio = (p.get("biog") or "").replace("\n", " ")
-                emails = {e.lower() for e in EMAIL_RE.findall(bio) if not e.lower().endswith(BAD_EMAIL_SUFFIX)}
-                phones = {re.sub(r"[^\d+]", "", x) for x in PHONE_RE.findall(bio)}
-                socials = set()
-                for m in re.findall(r"linktr\.ee/[\w.]+", bio):
-                    socials.add("https://" + m)  # recorded only; linktr.ee disallows crawlers
-                emails = sorted(e for e in emails if e not in sup)
-                if not emails:
+                emails = sorted({e.lower() for e in EMAIL_RE.findall(p["bio"])
+                                 if not e.lower().endswith(BAD_EMAIL_SUFFIX) and "mixcloud.com" not in e.lower()} - sup)
+                if not emails or not is_artist(p["name"], p["bio"]):
                     continue
-                socials.add(p.get("url") or f"https://www.mixcloud.com/{u['username']}/")
+                phones = sorted({re.sub(r"[^\d+]", "", x) for x in PHONE_RE.findall(p["bio"])})
+                links = sorted(set(re.findall(r"linktr\.ee/[\w.]+", p["bio"])))  # recorded only; linktr.ee disallows crawlers
                 c.execute("INSERT OR REPLACE INTO leads(username,name,bio,country,source_url,emails,phones,socials,first_seen,last_seen,status)"
                           " VALUES(?,?,?,?,?,?,?,?,COALESCE((SELECT first_seen FROM leads WHERE username=?),?),?,"
                           "COALESCE((SELECT status FROM leads WHERE username=?),'new'))",
-                          (key, p.get("name"), bio[:300], iso or "", p.get("url"), ";".join(emails),
-                           ";".join(sorted(phones)), ";".join(sorted(socials)), key, now(), now(), key))
+                          (key, p["name"], p["bio"][:300], iso, p["url"], ";".join(emails), ";".join(phones),
+                           ";".join([p["url"]] + ["https://" + l for l in links]), key, now(), now(), key))
                 c.commit(); saved += 1
-                print(f"{key:34} {iso or '--':3} {emails[0]}")
-            if not d.get("paging", {}).get("next"):
-                break
+                print(f"{key:34} {iso} {emails[0]}  | {p['bio'][:50]}")
         done.add(q)
         MXDONE.parent.mkdir(exist_ok=True); MXDONE.write_text("\n".join(sorted(done)) + "\n")
         save_seen(new_names)
     if a.git_sync:
         git("add", "data"); git("commit", "-m", f"Mixcloud run: +{len(new_names)} handles")
         r = git("push"); print("pushed" if r.returncode == 0 else f"push failed: {r.stderr.strip()}")
-    print(f"mixcloud: {len(queries)} queries, {checked} profiles checked, {saved} leads with email saved")
+    print(f"mixcloud: {len(queries)} queries, {checked} profiles checked, {saved} artist leads with email saved")
 
 
 def cmd_mark(a):
@@ -316,7 +342,7 @@ if __name__ == "__main__":
     x.add_argument("--flush", action="store_true", help="also write a partial batch"); x.set_defaults(f=cmd_batch)
     x = s.add_parser("mixcloud"); x.add_argument("--queries", type=int, default=20); x.add_argument("--pages", type=int, default=2)
     x.add_argument("--delay", type=float, default=0.4); x.add_argument("--europe-only", action="store_true", default=True)
-    x.add_argument("--git-sync", action="store_true"); x.add_argument("--use-api", action="store_true")
+    x.add_argument("--git-sync", action="store_true");
     x.set_defaults(f=cmd_mixcloud)
     x = s.add_parser("mark"); x.add_argument("email"); x.add_argument("status", choices=["new", "contacted", "replied", "declined", "do_not_contact"]); x.set_defaults(f=cmd_mark)
     a = p.parse_args(); a.f(a)
