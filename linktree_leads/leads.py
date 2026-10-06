@@ -188,6 +188,97 @@ def cmd_batch(a):
     print(f"{made} batch(es) written; {pend} email leads waiting for the next batch of {a.size}")
 
 
+# ---------------------------------------------------------------- Mixcloud crawler
+EU_NAMES = {"Albania": "AL", "Austria": "AT", "Belarus": "BY", "Belgium": "BE", "Bosnia and Herzegovina": "BA",
+            "Bulgaria": "BG", "Croatia": "HR", "Cyprus": "CY", "Czech Republic": "CZ", "Czechia": "CZ", "Denmark": "DK",
+            "Estonia": "EE", "Finland": "FI", "France": "FR", "Germany": "DE", "Greece": "GR", "Hungary": "HU",
+            "Iceland": "IS", "Ireland": "IE", "Italy": "IT", "Latvia": "LV", "Lithuania": "LT", "Luxembourg": "LU",
+            "Malta": "MT", "Moldova": "MD", "Montenegro": "ME", "Netherlands": "NL", "North Macedonia": "MK",
+            "Norway": "NO", "Poland": "PL", "Portugal": "PT", "Romania": "RO", "Serbia": "RS", "Slovakia": "SK",
+            "Slovenia": "SI", "Spain": "ES", "Sweden": "SE", "Switzerland": "CH", "Ukraine": "UA",
+            "United Kingdom": "GB", "Kosovo": "XK"}
+GENRES = ["techno", "house", "deep house", "tech house", "minimal", "trance", "drum and bass", "jungle", "dubstep",
+          "garage", "breaks", "ambient", "electro", "disco", "hip hop", "afrobeats", "jazz", "funk soul", "reggae dub",
+          "hard techno", "melodic techno", "dj set", "producer", "live act", "radio show", "vinyl"]
+CITIES = ["Berlin", "London", "Amsterdam", "Paris", "Madrid", "Barcelona", "Lisbon", "Rome", "Milan", "Warsaw",
+          "Prague", "Vienna", "Brussels", "Stockholm", "Copenhagen", "Dublin", "Manchester", "Glasgow", "Hamburg",
+          "Munich", "Cologne", "Frankfurt", "Leipzig", "Rotterdam", "Budapest", "Athens", "Helsinki", "Oslo", "Zurich",
+          "Bristol", "Leeds", "Ibiza", "Porto", "Lyon", "Marseille", "Belgrade", "Zagreb", "Bucharest", "Sofia", "Riga"]
+MXDONE = SEEN.with_name("mixcloud_queries_done.txt")
+
+
+def mx_get(url):
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    with urllib.request.urlopen(req, timeout=20) as r:
+        return json.load(r)
+
+
+def cmd_mixcloud(a):
+    import random, urllib.parse
+    c = db()
+    if a.git_sync:
+        git("pull", "--rebase", "--autostash")
+    ledger = load_seen()
+    done = set(MXDONE.read_text().splitlines()) if MXDONE.exists() else set()
+    queries = [f"{g} {ci}" for ci in CITIES for g in GENRES] + GENRES
+    random.Random(7).shuffle(queries)
+    queries = [q for q in queries if q not in done][: a.queries]
+    sup = {r[0] for r in c.execute("SELECT email FROM suppressed")}
+    new_names, saved, checked = set(), 0, 0
+    for q in queries:
+        for page in range(a.pages):
+            try:
+                d = mx_get("https://api.mixcloud.com/search/?" + urllib.parse.urlencode(
+                    {"q": q, "type": "user", "limit": 50, "offset": page * 50}))
+            except Exception as e:
+                print(f"search {q!r}: {e}", file=sys.stderr); break
+            for u in d.get("data", []):
+                key = "mixcloud:" + u["username"].lower()
+                if key in ledger or key in new_names:
+                    continue
+                time.sleep(a.delay)
+                try:
+                    p = mx_get(f"https://api.mixcloud.com/{urllib.parse.quote(u['username'])}/")
+                except Exception:
+                    continue
+                checked += 1; new_names.add(key)
+                iso = EU_NAMES.get(p.get("country") or "", "")
+                if not iso and (p.get("country") or a.europe_only):
+                    continue
+                bio = (p.get("biog") or "").replace("\n", " ")
+                emails = {e.lower() for e in EMAIL_RE.findall(bio) if not e.lower().endswith(BAD_EMAIL_SUFFIX)}
+                phones = {re.sub(r"[^\d+]", "", x) for x in PHONE_RE.findall(bio)}
+                socials = set()
+                for m in re.findall(r"linktr\.ee/[\w.]+", bio):
+                    try:
+                        lt = parse(fetch("https://" + m), "https://" + m)
+                        if lt:
+                            emails.update(lt["emails"]); phones.update(lt["phones"]); socials.update(lt["socials"])
+                        time.sleep(a.delay)
+                    except Exception:
+                        pass
+                emails = sorted(e for e in emails if e not in sup)
+                if not emails:
+                    continue
+                socials.add(p.get("url") or f"https://www.mixcloud.com/{u['username']}/")
+                c.execute("INSERT OR REPLACE INTO leads(username,name,bio,country,source_url,emails,phones,socials,first_seen,last_seen,status)"
+                          " VALUES(?,?,?,?,?,?,?,?,COALESCE((SELECT first_seen FROM leads WHERE username=?),?),?,"
+                          "COALESCE((SELECT status FROM leads WHERE username=?),'new'))",
+                          (key, p.get("name"), bio[:300], iso or "", p.get("url"), ";".join(emails),
+                           ";".join(sorted(phones)), ";".join(sorted(socials)), key, now(), now(), key))
+                c.commit(); saved += 1
+                print(f"{key:34} {iso or '--':3} {emails[0]}")
+            if not d.get("paging", {}).get("next"):
+                break
+        done.add(q)
+        MXDONE.parent.mkdir(exist_ok=True); MXDONE.write_text("\n".join(sorted(done)) + "\n")
+        save_seen(new_names)
+    if a.git_sync:
+        git("add", "data"); git("commit", "-m", f"Mixcloud run: +{len(new_names)} handles")
+        r = git("push"); print("pushed" if r.returncode == 0 else f"push failed: {r.stderr.strip()}")
+    print(f"mixcloud: {len(queries)} queries, {checked} profiles checked, {saved} leads with email saved")
+
+
 def cmd_mark(a):
     c = db()
     c.execute("UPDATE leads SET status=? WHERE ';'||emails||';' LIKE ?", (a.status, f"%;{a.email.lower()};%"))
@@ -205,5 +296,8 @@ if __name__ == "__main__":
     x = s.add_parser("export"); x.add_argument("out"); x.add_argument("--status"); x.add_argument("--with-email", action="store_true"); x.set_defaults(f=cmd_export)
     x = s.add_parser("batch"); x.add_argument("outdir"); x.add_argument("--size", type=int, default=500)
     x.add_argument("--flush", action="store_true", help="also write a partial batch"); x.set_defaults(f=cmd_batch)
+    x = s.add_parser("mixcloud"); x.add_argument("--queries", type=int, default=20); x.add_argument("--pages", type=int, default=2)
+    x.add_argument("--delay", type=float, default=0.4); x.add_argument("--europe-only", action="store_true", default=True)
+    x.add_argument("--git-sync", action="store_true"); x.set_defaults(f=cmd_mixcloud)
     x = s.add_parser("mark"); x.add_argument("email"); x.add_argument("status", choices=["new", "contacted", "replied", "declined", "do_not_contact"]); x.set_defaults(f=cmd_mark)
     a = p.parse_args(); a.f(a)
