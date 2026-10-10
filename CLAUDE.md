@@ -15,3 +15,7 @@ These are standing rules for any work on the email lists. Follow them every time
    Work on branch `dj-email-lists` / open PR; keep it pushed.
 
 Pipeline: `scripts/` (extract -> scrape -> pass2 websites -> pass3 SoundCloud/YouTube/TikTok -> batch2 -> classify_emails).
+
+6. **Uploaded CSVs are untouchable.** Profiles that came from the user's uploaded exports (data/source_*.csv) are always kept.
+   Only profiles found through my own web searches get pruned when the user asks for a country (e.g. France only).
+   Pruned entries go in `removed_non_french.csv`; unconfirmed country counts as not matching.
