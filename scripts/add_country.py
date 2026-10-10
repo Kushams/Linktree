@@ -32,7 +32,17 @@ C={
 TLD={'.fr':'France','.de':'Germany','.co.uk':'United Kingdom','.uk':'United Kingdom','.nl':'Netherlands','.es':'Spain','.it':'Italy','.ch':'Switzerland','.be':'Belgium','.jp':'Japan','.com.au':'Australia','.au':'Australia','.ie':'Ireland','.br':'Brazil','.pt':'Portugal','.gr':'Greece','.pl':'Poland','.at':'Austria','.ca':'Canada','.mx':'Mexico'}
 FLAG={'🇫🇷':'France','🇩🇪':'Germany','🇬🇧':'United Kingdom','🇺🇸':'United States','🇪🇸':'Spain','🇮🇹':'Italy','🇳🇱':'Netherlands','🇧🇪':'Belgium','🇨🇭':'Switzerland','🇮🇪':'Ireland','🇧🇷':'Brazil','🇲🇽':'Mexico','🇯🇵':'Japan','🇰🇷':'South Korea','🇨🇦':'Canada','🇦🇺':'Australia','🇵🇹':'Portugal','🇺🇦':'Ukraine','🇮🇳':'India','🇧🇾':'Belarus','🇩🇿':'Algeria','🇨🇴':'Colombia','🇦🇷':'Argentina','🇦🇹':'Austria','🇵🇱':'Poland','🇱🇧':'Lebanon'}
 BASED=re.compile(r"(?:based in|based at|from|living in|basé[e]? (?:à|a|en|sur)|\bin)\s+([A-Za-zÀ-ÿ' ,-]{3,40})",re.I)
-OVERRIDE={'https://linktr.ee/stghislain':('France','page title: Hauts-de-France, France')}
+OVERRIDE={
+    'https://linktr.ee/stghislain':('France','page title: Hauts-de-France, France'),
+    'https://linktr.ee/deejay2fly':('Germany', 'page bio: Bayreuth'),
+    'https://linktr.ee/MiniB.Events':('Belgium', 'own website: Liège, Belgique'),
+    'https://linktr.ee/jef_nice':('Belgium', 'page link: Maanrock Festival (Mechelen)'),
+    'https://linktr.ee/djathome':('Belgium', 'page links: Belgium Pride, De School Amsterdam (Europe)'),
+    'https://linktr.ee/Nickygdj':('United Kingdom', 'UK phone number format'),
+    'https://linktr.ee/djtomwax':('Germany', 'booking email .de domain'),
+    'https://linktr.ee/Nathassia':('United Kingdom', 'agent domain .uk (archangeluk)'),
+    'https://linktr.ee/DJJEANOFFICIAL':('Netherlands', 'booking agents on .nl domains (weak)'),
+}
 def infer(u,emails):
     if u in OVERRIDE: return OVERRIDE[u]
     # Only the artist's OWN Linktree bio and link titles count (not search snippets, not the page title/name).
