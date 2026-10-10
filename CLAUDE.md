@@ -22,3 +22,7 @@ Pipeline: `scripts/` (extract -> scrape -> pass2 websites -> pass3 SoundCloud/Yo
 
 7. **Check before removing.** Before dropping an artist for an unclear country, dig through all their linked pages
    (`scripts/locate.py`: SoundCloud/Mixcloud/Bandcamp/RA/own site). Instagram can't be read automatically.
+
+8. **Final deliverable = `dj_emails_europe.csv`**: European artists only, from ALL sources (uploads + searches). Confirmed non-European
+   artists go to `excluded_non_european.csv`. Artists with unknown country stay in, labelled `unknown (not confirmed)`.
+   `dj_emails_only.csv` remains the full master list.

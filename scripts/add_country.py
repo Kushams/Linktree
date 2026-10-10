@@ -39,6 +39,8 @@ OVERRIDE={
     'https://linktr.ee/reelow':('Spain', 'Hungarian-born, based in Barcelona (Radio Intense interview)'),
     'https://linktr.ee/olliemundy':('Spain', 'British DJ, currently based in Ibiza (interviews)'),
     'https://linktr.ee/djsource':('Europe (city unconfirmed)', 'plays Berlin/HÖR/Radio Rudina/Bratislava; home city not confirmed'),
+    'https://linktr.ee/marligrosskopf':('Australia','agents/email: Australian (marlimusicau, Weaver Agency AU)'),
+    'https://linktr.ee/DJWicked':('United States','agent Marc Allman (US)'),
     'https://linktr.ee/stghislain':('France','page title: Hauts-de-France, France'),
     'https://linktr.ee/deejay2fly':('Germany', 'page bio: Bayreuth'),
     'https://linktr.ee/MiniB.Events':('Belgium', 'own website: Liège, Belgique'),
