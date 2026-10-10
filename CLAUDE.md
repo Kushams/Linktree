@@ -19,3 +19,6 @@ Pipeline: `scripts/` (extract -> scrape -> pass2 websites -> pass3 SoundCloud/Yo
 6. **Uploaded CSVs are untouchable.** Profiles that came from the user's uploaded exports (data/source_*.csv) are always kept.
    Only profiles found through my own web searches get pruned when the user asks for a country (e.g. France only).
    Pruned entries go in `removed_not_european.csv` (scope was widened from France-only to Europe); unconfirmed country counts as not matching.
+
+7. **Check before removing.** Before dropping an artist for an unclear country, dig through all their linked pages
+   (`scripts/locate.py`: SoundCloud/Mixcloud/Bandcamp/RA/own site). Instagram can't be read automatically.

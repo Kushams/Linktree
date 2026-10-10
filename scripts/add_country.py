@@ -33,6 +33,9 @@ TLD={'.fr':'France','.de':'Germany','.co.uk':'United Kingdom','.uk':'United King
 FLAG={'🇫🇷':'France','🇩🇪':'Germany','🇬🇧':'United Kingdom','🇺🇸':'United States','🇪🇸':'Spain','🇮🇹':'Italy','🇳🇱':'Netherlands','🇧🇪':'Belgium','🇨🇭':'Switzerland','🇮🇪':'Ireland','🇧🇷':'Brazil','🇲🇽':'Mexico','🇯🇵':'Japan','🇰🇷':'South Korea','🇨🇦':'Canada','🇦🇺':'Australia','🇵🇹':'Portugal','🇺🇦':'Ukraine','🇮🇳':'India','🇧🇾':'Belarus','🇩🇿':'Algeria','🇨🇴':'Colombia','🇦🇷':'Argentina','🇦🇹':'Austria','🇵🇱':'Poland','🇱🇧':'Lebanon'}
 BASED=re.compile(r"(?:based in|based at|from|living in|basé[e]? (?:à|a|en|sur)|\bin)\s+([A-Za-zÀ-ÿ' ,-]{3,40})",re.I)
 OVERRIDE={
+    'https://linktr.ee/djduvide':('United Kingdom', 'Mixcloud profile: DJ / Producer based in London'),
+    'https://linktr.ee/djmoule':('France', 'booking via Unison Prod, a French production agency (Saintes)'),
+    'https://linktr.ee/Ra.Ph':('France', 'Resident Advisor: eastern France, Silodom resident (label on his Linktree)'),
     'https://linktr.ee/stghislain':('France','page title: Hauts-de-France, France'),
     'https://linktr.ee/deejay2fly':('Germany', 'page bio: Bayreuth'),
     'https://linktr.ee/MiniB.Events':('Belgium', 'own website: Liège, Belgique'),
