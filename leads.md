@@ -2,7 +2,7 @@
 
 Leads for DJs / producers / musicians based in Europe who could travel to London to perform at the gallery exhibition. **London-based artists are excluded** (owner rule, 2026-11-13). Every lead has a **publicly published** email (never guessed) and a recorded source. Machine-readable version: `leads.json`.
 
-## Verified leads in pool: 105 — 104 ready, 1 on hold (flagged)
+## Verified leads in pool: 126 — 124 ready, 2 on hold (flagged)
 
 ## Ready
 
@@ -112,14 +112,35 @@ Leads for DJs / producers / musicians based in Europe who could travel to London
 | Lapo Underground | giuliaunderground.mgmt@gmail.com | DJ / Producer / Musician | Milan, Italy | — | Instagram |
 | Michela Caviglia | michela@fashionmusic.info | DJ / Producer / Musician | Barcelona, Spain | — | Instagram |
 | DJ Redblack | info@everness.com | DJ / Producer / Musician | Italy | — | Linktree |
+| WINGZ | bookings@viewartists.co | Producer | Vienna, Austria | Drum & Bass | [Website (Overview Music / View Artists)](https://overviewmusic.co.uk/pages/viewartists-wingz) |
+| KARAA | karin.bachner@gmail.com | Singer-songwriter (jazz) | Vienna, Austria | — | [Website](https://www.karinbachner.com/) |
+| Vienna's Filthiest | info@viennasfilthiest.com | Platform / record label | Vienna, Austria | Electronic dance / body music | [SoundCloud](https://soundcloud.com/viennasfilthiest) |
+| Mirco Lieber | info@ml-musikschule.eu | Concert musician / music educator | Vienna, Austria | — | [Website](https://ml-musikschule.eu/) |
+| filous | elias@ezekielmgmt.com | Music producer and DJ | Vienna, Austria | — | [SoundCloud](https://soundcloud.com/filous) |
+| TARIK | t2c.musicgroup@gmail.com | DJ / Producer | Lisbon, Portugal | — | [Instagram](https://www.instagram.com/tarikchand) |
+| DJEFF | jc@disquietagency.com | DJ | Lisbon, Portugal | Afro Tech / Afro House | [Instagram](https://www.instagram.com/officialdjeff) |
+| zauo | mariananhogueira.contato@gmail.com | DJ | Lisbon, Portugal | Funk BR, Techno, Groove | [Instagram](https://www.instagram.com/zauoooo) |
+| DJ CARL HINDS | djcarlhinds@gmail.com | DJ | Lisbon, Portugal | Soul, Funk, Boogie, Disco (vinyl) | [Instagram](https://www.instagram.com/DJCARLHINDS) |
+| Jorge Caiado | kristina.carpetevents@gmail.com | DJ, Producer, Label and Record Shop Owner | Lisbon, Portugal | Minimal / House | [SoundCloud](https://soundcloud.com/jorgecaiado) |
+| Oli Liu | oliiu.lab@gmail.com | DJ & musician | Lisbon, Portugal | — | [Instagram](https://www.instagram.com/liiiuuups/) |
+| shcuro | info@discosparaiso.com | DJ & Producer | Lisbon, Portugal | — | [Instagram](https://www.instagram.com/shcuro) |
+| André Nascimento | contact@andrenascimento.net | Musician & Sound Designer | Lisbon, Portugal | — | [Website](https://www.andrenascimento.net/contact/) |
+| Pedro Duarte | pedroduartemusic@gmail.com | DJ & Producer | Lisbon, Portugal | Electronic / House | [SoundCloud](https://soundcloud.com/pedroduarte653) |
+| AKSENT | info@10tonagency.com | DJ & Producer | Dublin, Ireland | — | [Instagram](https://www.instagram.com/aksent.gram/) |
+| Dean Sherry | info@phever.ie | DJ / Producer, Broadcaster, Club Promoter, DJ Tutor | Dublin, Ireland | Electronic | [Linktree](https://linktr.ee/deansherry) |
+| Keno Flanagan | koflanagan367@yahoo.ie | DJ / Promoter / Producer / Engineer | Dublin, Ireland | House, oldskool | [YouTube](https://www.youtube.com/@kenoflanagan) |
+| Gary Byrne | garypbyrne@gmail.com | Producer (modular synth / electronic), Bloop Groop founder | Dublin, Ireland | — | [YouTube](https://www.youtube.com/channel/UCCAxQErj5qUHfrY1RUl7bLg) |
+| Emma Hynes | thisisemmahynes@gmail.com | Musician (writer, singer, visual artist) | Dublin, Ireland | Alt / indie folk | [Website](https://emmahynes.com/contact-me/) |
+| Trouble Pilgrims | peteholidai77@gmail.com | Band / musicians | Dublin, Ireland | Rock / punk | [Website](https://www.thetroublepilgrims.com/) |
 
 ## On hold — flagged, do NOT outreach without the owner's decision
 
 | Artist | Email | Role | Base | Genre | Source | Flag |
 |---|---|---|---|---|---|---|
 | DJ RICARDO | info.djricardo@gmail.com | DJ | Madrid, Spain | Open Format | [Linktree](https://linktr.ee/iamdjricardo)  Artist states his age as 16 on the page. HOLD — do not outreach without the owner's explicit decision. |
+| SEANEM | djseanem@gmail.com | DJ & Producer | Dublin, Ireland | — | [Notion (bookings page)](https://app.notion.com/p/Bookings-Enquiries-2fc87e7cbda680738c98f499e33b30ba)  STATED AGE 12 — page says he is a 12-year-old DJ & Producer; bookings are parent-managed. Do NOT outreach without the owner's explicit decision. |
 
-## Excluded — London-based (12) — NOT in the pool, recorded only so they are never re-added
+## Excluded — London-based (14) — NOT in the pool, recorded only so they are never re-added
 
 | Artist | Email | Role | Base | Source |
 |---|---|---|---|---|
@@ -135,6 +156,8 @@ Leads for DJs / producers / musicians based in Europe who could travel to London
 | Billy Daniel Bunter | paul@uaagency.co.uk | DJ / Producer / Musician | London, United Kingdom | Linktree |
 | DJ EAZY B | djeazyb@hotmail.com | DJ / Producer / Musician | London, United Kingdom | Linktree |
 | DJ Harry UK | Harry@ritzy.productions | DJ / Producer / Musician | London, United Kingdom | Linktree |
+| marinayozora (Marina Yozora) | — (none found) | Musician | London, United Kingdom | Instagram |
+| danielseankenny (Daniel Sean Kenny) | — (none found) | Musician | London, United Kingdom |  |
 
 ## Near misses — checked live, NOT verified (do not use without further verification)
 - **Cem Plem** — booking.cemplem@gmail.com is visible, but no Berlin base is stated on the page.
@@ -151,10 +174,13 @@ Leads for DJs / producers / musicians based in Europe who could travel to London
 - **snvm (Berlin) — CLOSED by audit** — Audit re-pass: NO email anywhere — Linktree, expanded Instagram, expanded SoundCloud, TikTok @snvmmusic. Nothing published to capture.
 - **Audit icon-unreadable set (12 pages)** — Email icon/button present but target not readable even after linked socials were checked: DJ Paris Paul (Paris, LA-based), MILLA LOU (Berlin), vollkommen.live (Berlin), Future Retro London, DJ Bone (Amsterdam search; Detroit-based), Kadinsky Sessions (Amsterdam), Jazz K (Barcelona), Karol Diac (Barcelona search), ErikBo (Barcelona search — artist is 17, phone bookings only on IG), DDDDDj (Madrid), Trade DJ (Madrid; a DJ school), Aleks Ferrero (Madrid; private IG).
 - **Audit no-email set (19 pages)** — Checked live incl. linked socials, no email published — incl. La Mona (Paris; website contact form only), Silver DeParis, DJ Baby Berlin (Philadelphia), PITZE, Bonker Squad Berlin, DEEP PRACTICE (London), DJ Fern (London), Deejay Danny, GONNI, TechnoZulo (Linktree auto-redirects to YouTube), Jodita Madrid, David Carro.
+- **Rebecca Winckworth (Dublin) — INCOMPLETE** — Wave 3: Linktree email icon unreadable; browser died during the Instagram follow-up (bio NOT read; YouTube/Facebook unchecked). Irish singer-songwriter, Dublin gig listed; contact is a form button on Linktree. Re-queued in the continuation.
+- **Wave 3 city near-miss sets (condensed)** — Full per-name detail in the wave 3 record. Brussels: 12 named no-email pages + unopened SoundCloud leftovers. Stockholm: ~20 named, incl. Jacob Karlzon (email published but Stockholm base NOT evidenced). Copenhagen: ~20 named, incl. hilalkaya (emails published, base Herning not Copenhagen) and blaaly (email published, base not evidenced). Vienna: dd.vienna, somi_showme, Scheibosan + SoundCloud sets that would not render. Lisbon: Undercover (contact behind Cloudflare Turnstile, 8 challenge attempts failed), LUX LISBON and Pedro from Lisbon (emails published but bases are London/Devon — 'Lisbon' is a stage name), Lianheart (email published, based Ibiza). Dublin: GALLACHOIR, davidmahon, Jeffcoyne_Dj, DaRoy (email published, base split Miami/Dublin), John Lynch (contact form only), Tony St Ledger (no personal email; his band is lead Trouble Pilgrims).
 
 ## Coverage
 - **Pass 1 (search index):** 88 queries, 2 verified leads originally (1 London lead has since moved to Excluded).
 - **Pass 2 (live browser, Google):** 27 verified leads originally (3 London leads have since moved to Excluded).
 - **Pass 3 (SoundCloud-native):** 25 profiles opened, 16 verified leads (1 London lead has since moved to Excluded).
-- **Pass 4 (Wave 3, partial):** 84 Linktree pages + 54 SoundCloud profiles opened; 41 verified leads (Brussels 8, Stockholm 13, Copenhagen 14, Vienna 6). Remainder relaunched (Vienna producer/musician + SoundCloud, Lisbon, Dublin, Hamburg, Part B rotations).
-- **Pass 5 (audit re-pass of Wave 2 cities):** 71 Linktree pages opened and audited one by one — **24 new leads**, 6 London-based captured into Excluded, 4 already known, 19 no email after linked socials were checked, 12 email-icon targets unreadable, 6 not Europe-based. Recovery came via Instagram (12), SoundCloud (4), own websites (2), Taplink (1) and Linktree itself (5). The Gmail compose mailto-reveal did not work in this browser; some mailto button targets were instead read directly from the page where exposed.
+- **Pass 4 (Wave 3, first run):** 84 Linktree pages + 54 SoundCloud profiles opened; 41 verified leads (Brussels 8, Stockholm 13, Copenhagen 14, Vienna 6).
+- **Pass 5 (audit re-pass of Wave 2 cities):** 71 Linktree pages audited — 24 new leads, 6 London-based into Excluded, 19 no email, 12 icon-unreadable, 6 not Europe-based.
+- **Pass 6 (Wave 3 continuation):** cumulative 141 Linktree pages + 98 SoundCloud profiles for the wave; **20 new leads** (Vienna +5, Lisbon 9, Dublin 6) + 1 flagged (SEANEM, Dublin, stated age 12 — held). Still running: Rebecca Winckworth completion, Dublin SoundCloud, Hamburg, Part B rotations.
