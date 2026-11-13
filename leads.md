@@ -2,7 +2,7 @@
 
 Leads for DJs / producers / musicians based in Europe who could travel to London to perform at the gallery exhibition. **London-based artists are excluded** (owner rule, 2026-11-13). Every lead has a **publicly published** email (never guessed) and a recorded source. Machine-readable version: `leads.json`.
 
-## Verified leads in pool: 191 — 189 ready, 2 on hold (flagged)
+## Verified leads in pool: 241 — 239 ready, 2 on hold (flagged)
 
 ## Ready
 
@@ -198,6 +198,57 @@ Leads for DJs / producers / musicians based in Europe who could travel to London
 | Mira Falkenstein | info@mirafalkenstein.de | Techno DJ & Producer | Cologne, Germany | High-energy techno | [SoundCloud](https://soundcloud.com/mirafalkenstein) |
 | KLAUS F. | mail@about-repetition.com | Artist, Producer & DJ | Cologne, Germany | New Beat / EBM / Wave / Industrial / Techno | [SoundCloud](https://soundcloud.com/klaus-froebel) |
 
+| DJ ZigZag | peter@unfizzy.com | DJ / Producer / Label owner | Prague, Czechia | Hard Techno / Hard Dance / Industrial / Hard Trance | [Linktree](https://linktr.ee/zigzagdj) |
+| Claire Nøir | Clairenoir11@gmail.com | DJ / Producer | Prague, Czechia | Hard Techno | [SoundCloud](https://soundcloud.com/clairenoir) |
+| Andrea Šulcová | info@andreamusicproduction.com | Singer-songwriter & flutist | Prague, Czechia | — | [Own website](https://www.andreasulcova.com/) |
+| warschau | warschau022@gmail.com | DJ | Warsaw, Poland | Hard Trance / Hard House | [Linktree](https://linktr.ee/warschau) |
+| RDSLAV | radekpestka@icloud.com | DJ & Producer | Warsaw, Poland | Techno | [Instagram](https://www.instagram.com/rdslav) |
+| BUG | bugbuuking@gmail.com | DJ / Radio host | Budapest, Hungary | Drum & Bass | [Instagram](https://www.instagram.com/bug.mp3_) |
+| SAYA NOÉ | management@bergtalents.com | Singer-songwriter / Music producer | Budapest, Hungary | — | [Linktree](https://linktr.ee/sayanoe) |
+| G A B R O S | gabrosdj@gmail.com | DJ / Producer | Budapest, Hungary | Techno / Hard Techno / Hard Industrial Techno | [SoundCloud](https://soundcloud.com/gabrosdj) |
+| Yohai Mor | yohaimor@gmail.com | DJ / Producer | Budapest, Hungary | Progressive House / Electronic | [SoundCloud](https://soundcloud.com/yohai) |
+| KOBA | kobamusic.bookings@gmail.com | DJ | Bucharest, Romania | Afro House / Melodic Afro House | [Linktree](https://linktr.ee/KOBA_music) |
+| DJ Benzol | deejaybenzol@gmail.com | DJ / Musician | Bucharest, Romania | House / Electronic | [SoundCloud](https://soundcloud.com/deejay-benzol) |
+| GODINI | robertogodiniartist@gmail.com | DJ & Producer | Bucharest, Romania | Hard Beats / Hard Dance | [Instagram](https://www.instagram.com/godinisbeats) |
+| GURITZA | mihai.gurita1706@gmail.com | DJ / Producer | Bucharest, Romania | — | [Linktree](https://linktr.ee/guritza) |
+| Inlock Beatz | inlockbeatz@gmail.com | Music producer | Bucharest, Romania | — | [Linktree](https://linktr.ee/inlockbeatz) |
+| Cristina Lupu | contact@bandbook.ro | Singer / songwriter | Bucharest, Romania | — | [Instagram](https://www.instagram.com/cristinalupu.music) |
+| Aanghel | andrei.anghell210@gmail.com | DJ / Producer | Bucharest, Romania | Tech House / Deep Tech | [SoundCloud](https://soundcloud.com/aanghel) |
+| Racheta Artrist | rachetaartrist@gmail.com | DJ / Music producer | Bucharest, Romania | House / Electro / Breakbeat (vinyl) | [Instagram](https://www.instagram.com/rachetaartrist/) |
+| Phillip X | djphillipx@gmail.com | DJ & Producer | Zagreb, Croatia | House / Indie Dance | [Linktree](https://linktr.ee/djphillipx) |
+| Cevi | bulajaivor@gmail.com | Producer | Zagreb, Croatia | Groovy / hypnotic beats | [Instagram](https://www.instagram.com/cevi_vice) |
+| anakvadrat | anakvadratmusic@gmail.com | Singer / multi-instrumentalist | Zagreb, Croatia | Pop / Rock | [Linktree](https://linktr.ee/anakvadratmusic) |
+| Andrea Ljekaj | info.atje@gmail.com | Artist / Label owner / Producer | Zagreb, Croatia | — | [SoundCloud](https://soundcloud.com/andrea_ljekaj) |
+| Mihael Blum | blum.mihael@gmail.com | Music producer | Zagreb, Croatia | Ambient / Chill / Deep House / Hip Hop (from track titles) | [SoundCloud](https://soundcloud.com/mihael-blum) |
+| BRB NEPENTHE | bookings@nepenthe.events | Producer / DJ / Promoter | Athens, Greece | Groovy / melodic | [SoundCloud](https://soundcloud.com/brb-nepenthe) |
+| Dimitris Vlisidis | bookings@djdimitrisvlisidis.com | DJ | Athens, Greece | Mainstream / wedding & event DJ | [Own website](https://djdimitrisvlisidis.com/en/) |
+| Overmute | overmutemusic@gmail.com | DJ & Producer | Athens, Greece | Afro / Melodic / Indie | [SoundCloud](https://soundcloud.com/overmute) |
+| OBLIVION music | mighrim40@gmail.com | DJ / Producer | Athens, Greece | Afro Tech / Peak-Time / Raw Techno | [SoundCloud](https://soundcloud.com/majdi-mighri) |
+| DJ Snatch | Karavitisstelios@gmail.com | DJ / Radio producer | Athens, Greece | Latin / R&B & Soul / House reworks | [SoundCloud](https://soundcloud.com/dj-snatch-athens) |
+| Chex | chexwho@gmail.com | DJ & Producer | Athens, Greece | Techno (fast-paced, bouncy, 155–175 BPM) | [SoundCloud](https://soundcloud.com/chexwho) |
+| Substak | substakmusic@gmail.com | Artist / Music producer | Athens, Greece | Minimal / Deep Tech | [SoundCloud](https://soundcloud.com/substak) |
+| Mister Kentro | misterkentro@supersanmusic.com | DJ / Music Producer | Athens, Greece | Balkan Riddims / Tropical / World Electronic | [SoundCloud](https://soundcloud.com/misterkentro) |
+| Funkanizer | djfunkanizer@gmail.com | DJ / Producer / Bass player | Athens, Greece | Hip-hop / Nu-disco / Electro-funk / Funky Breaks | [SoundCloud](https://soundcloud.com/funkanizer) |
+| IHLE | ihle.music@gmail.com | DJ / Producer | Oslo, Norway | Deep House / Progressive House / Melodic Techno | [Instagram](https://www.instagram.com/ihle.music) |
+| OKPLUS | info@discotheque.no | Producer / DJ duo | Oslo, Norway | House / Disco / Soulful | [Agency website (Discotheque)](https://www.discotheque.no/okplus) |
+| AboutMilaan | contact.milaan@gmail.com | DJ / Producer | Oslo, Norway | Techno / Progressive | [Linktree](https://linktr.ee/AboutMilaan) |
+| notoms | tkjelsrud@proto.me | Indie producer | Oslo, Norway | Downtempo / Trip Hop / Ambient / Dub | [Own website](https://www.badstudio.no/about.html) |
+| Kim Young iLL | illbehaviourkrs@gmail.com | House DJ | Oslo, Norway | Disco / House / Breaks / Techno | [SoundCloud](https://soundcloud.com/kim-young-ill) |
+| Omar V (Oslo) | omvilberg@gmail.com | DJ / Producer / Promoter | Oslo, Norway | Balearic / House / Disco / Dub / Ambient / Italo Disco | [SoundCloud](https://soundcloud.com/nitramelo) |
+| tâmitan | thomas.borge.lie@gmail.com | DJ & Producer | Oslo, Norway | House / Deep House / Electronic | [SoundCloud](https://soundcloud.com/tamitan) |
+| Ivaylo | i@lcj.no | DJ / Producer / Curator | Oslo, Norway | — | [SoundCloud](https://soundcloud.com/ivaylooslo) |
+| DJ Sprinter | carl@suomotubookings.com | Producer | Oslo, Norway | Leftfield / minimal club | [SoundCloud](https://soundcloud.com/dj-sprinter1) |
+| whoisjope | jopefunk@gmail.com | DJ / Party organizer / Record collector | Helsinki, Finland | Funk / House / Techno | [SoundCloud](https://soundcloud.com/whoisjope) |
+| Capricaseven | capricasevenmusic@gmail.com | Electronic artist & DJ | Helsinki, Finland | Melodic / Progressive / Deep | [SoundCloud](https://soundcloud.com/capricaseven) |
+| Pedro MacLoughlin | xamplelive303@gmail.com | Artist / DJ / Music technology educator | Helsinki, Finland | Hybrid-live / DJ sets (Xample Live) | [SoundCloud](https://soundcloud.com/pedromacloughlin) |
+| Perussastamala | saastamoinen.mikael@gmail.com | Bass player / Producer / Musician | Helsinki, Finland | Shoegaze / Modern Jazz / Indie / Post Jazz | [Own website](https://perussastamala.com/) |
+| konsT | konstantsearching@gmail.com | DJ / Producer / Radio producer / Event host | Helsinki, Finland | House / Techno / Electronic | [SoundCloud](https://soundcloud.com/konstantsearching) |
+| Dj Haffla | haffladj@gmail.com | DJ | Gothenburg, Sweden | Psytrance / Techno | [Linktree](https://linktr.ee/djhaffla) |
+| Hellquist | HellquistMusic@gmail.com | DJ / Producer | Gothenburg, Sweden | Dark Progressive / Psygressive / Techno / Minimal / Deep-Tech / House | [SoundCloud](https://soundcloud.com/hellquist) |
+| B3RG | jonatan.blomberg@telia.com | Music producer | Gothenburg, Sweden | Dance / EDM | [SoundCloud](https://soundcloud.com/b3rgmusic) |
+| Chris Chrivid | chris.chrivid@gmail.com | Beatmaker / Producer | Gothenburg, Sweden | Hip-hop / Trap beats | [SoundCloud](https://soundcloud.com/chris-chrivid) |
+| DJ AR | aliraxa20@gmail.com | DJ / Producer / Artist | Gothenburg, Sweden | Deep Tech / Techno / Progressive House / Melodic Techno | [SoundCloud](https://soundcloud.com/ali-raza-45) |
+
 ## On hold — flagged, do NOT outreach without the owner's decision
 
 | Artist | Email | Role | Base | Genre | Source | Flag |
@@ -205,7 +256,7 @@ Leads for DJs / producers / musicians based in Europe who could travel to London
 | DJ RICARDO | info.djricardo@gmail.com | DJ | Madrid, Spain | Open Format | [Linktree](https://linktr.ee/iamdjricardo)  Artist states his age as 16 on the page. HOLD — do not outreach without the owner's explicit decision. |
 | SEANEM | djseanem@gmail.com | DJ & Producer | Dublin, Ireland | — | [Notion (bookings page)](https://app.notion.com/p/Bookings-Enquiries-2fc87e7cbda680738c98f499e33b30ba)  STATED AGE 12 — page says he is a 12-year-old DJ & Producer; bookings are parent-managed. Do NOT outreach without the owner's explicit decision. |
 
-## Excluded — London-based (15) — NOT in the pool, recorded only so they are never re-added
+## Excluded — London-based (17) — NOT in the pool, recorded only so they are never re-added
 
 | Artist | Email | Role | Base | Source |
 |---|---|---|---|---|
@@ -224,6 +275,9 @@ Leads for DJs / producers / musicians based in Europe who could travel to London
 | marinayozora (Marina Yozora) | — (none found) | Musician | London, United Kingdom | Instagram |
 | danielseankenny (Daniel Sean Kenny) | — (none found) | Musician | London, United Kingdom |  |
 | Paris Rabone | info@parisrabone.com | Producer / singer / songwriter | London, United Kingdom | [SoundCloud](https://soundcloud.com/parisrabone) |
+
+| Kupla | kuplasound@gmail.com | Producer | Helsinki / London | [SoundCloud](https://soundcloud.com/kuplasound) |
+| frygian | — (none found) | Recording artist | Gothenburg / London | Linktree |
 
 ## Near misses — checked live, NOT verified (do not use without further verification)
 - **Cem Plem** — booking.cemplem@gmail.com is visible, but no Berlin base is stated on the page.
@@ -250,8 +304,24 @@ Leads for DJs / producers / musicians based in Europe who could travel to London
 - **TEKIBO (Switzerland)** — Wave 4B: email tekibo.dj@hotmail.com published on Linktree, but pages say only 'based in Switzerland' — no city evidenced (Zurich gigs are gigs, not a base). Quoted for the owner's judgment.
 - **Wave 4B pending deeper checks** — The 4B browser ended mid-Cologne before the follow-the-socials checks for its no-email/icon names (Zurich: Ronny Grauer + 8 no-email names; Munich: Dany Holm, so.undso_official + 10; Frankfurt: PETER PAHN, Ulrike Schwarz, sadovoy + 9; Cologne: MICHËLON, DJ DaPisk, JuNi + 2 unopened). These are being completed in the 4B continuation — not closed as no-email yet.
 
+- **Michaela Polakova (Prague)** — Wave 4A: michaelapolak17@gmail.com published in her Linktree bio (composer/singer/songwriter/pianist/producer), but her Instagram bio says she has lived 20 years in England — Prague is a work/gig connection (a play at Švanda Theatre), not her base. NOT a lead.
+- **SENSORIUM (Prague)** — Wave 4A: base conflict — Linktree says 'based in Prague', Instagram says Berlin. No email on Linktree or Instagram. NOT a lead.
+- **CHIRILIC / Chirila Florin (Bucharest)** — Wave 4A: Linktree says 'established in Bucharest', but Instagram says 'based in Valencia/Alicante' — current base is Spain. No email on Linktree or Instagram. NOT a Bucharest lead.
+- **Dj Osiris (Bucharest)** — Wave 4A: naturalrhythm2010@gmail.com (Natural Rhythm Management) IS published on his own site and Instagram bio, but his base is only ever stated as 'Romania' — Bucharest appears only in gig listings. NOT a lead under the city-level rule; address quoted for the owner's judgment.
+- **JacksHouseDJ (Zagreb)** — Wave 4A: Linktree states no base; content points to Wellington, New Zealand (and London gigs) — Zagreb is one gig only. Email icon target not exposed. NOT a lead.
+- **Dj_Sam_Tha_Man (Oslo search)** — Wave 4A: dj.sam.tha.man@gmail.com IS published on his Linktree and SoundCloud, but his SoundCloud bio states 'Lives in Stockholm, Sweden' — Oslo was a gig only. Rechecked against the live pool 2026-11-13: the email is NOT in the pool. A Stockholm candidate the owner may judge separately — NOT an Oslo lead.
+- **Acid_Oslo (Oslo search)** — Wave 4A: he is Paris-based, not Oslo-based (Linktree button alt text describes 'a Parisian DJ'). Booking@acidoslo.com was seen only in alt text, not confirmed as a displayed address. NOT an Oslo lead.
+- **ThreeJays (Helsinki)** — Wave 4A: threejays.dj@gmail.com IS published on their Linktree, but base is only ever stated as 'Finland' — Helsinki appears only in a gig/event listing. NOT a lead under the city-level rule; address quoted for the owner's judgment.
+- **miiasolar / Miia Solar (Helsinki)** — Wave 4A: miiasolarmusic@gmail.com IS published on Linktree, SoundCloud and Instagram, but her base is only ever stated as 'Finland' — no city evidenced. NOT a lead under the city-level rule; address quoted for the owner's judgment.
+- **Helsinki Project (Helsinki search)** — Wave 4A: helsinkiprojectmusic@gmail.com published in a Google snippet of his SoundCloud bio, but he is an Irish-based producer — 'Helsinki' is a stage name, not a base. NOT a lead.
+- **A Day in Helsinki (Helsinki search)** — Wave 4A: adayinhelsinki@hotmail.com published, but the band is from Newcastle upon Tyne, England — 'Helsinki' is the band name, not a base. NOT a lead.
+- **DJ ZVEUSE / Max Elman (Gothenburg)** — Wave 4A: dj@zveuse.com IS published in his Instagram bio, but his base is only ever stated as 'Sweden' — Gothenburg appears only in gig posts/listings. NOT a lead under the city-level rule; address quoted for the owner's judgment.
+- **Otom Potom (Zagreb) — FLAGGED UNDER 18** — Wave 4A: Linktree 'Electronic music DJ based in Zagreb, Croatia'; the linked SoundCloud preview states 'A 17 year old DJ from Zagreb'. Stated age 17 — NEVER outreach; no email hunt was done for him.
+- **Jonatan Gustafsson (Gothenburg) — FLAGGED UNDER 18** — Wave 4A: Google snippet of his SoundCloud profile: 'I'm a 17 year old bedroom producer and DJ from Gothenburg, Sweden.' Stated age 17 — NEVER outreach; no email hunt was done for him and his profile was not opened.
+
 ## Coverage
 - **Waves 1-3 + audit re-pass (complete):** see `leads.json` coverage passes 1-8. Totals at Wave 3 completion: 174 in pool.
 - **Pass 9 (Wave 4B, first run):** 38 Linktree pages + 15 SoundCloud profiles; 12 verified leads (Zurich 3, Munich 6, Frankfurt 2, Cologne 1).
 - **Pass 10 (Wave 4B continuation):** Cologne completed — 14 Linktree pages + 14 SoundCloud profiles; **5 verified leads**; Cologne's no-email/icon names all deeper-checked and closed.
-- **Still running:** Wave 4A (9 cities); Wave 4B tail (Rotterdam, Antwerp, Porto, Rome, Naples + Zurich/Munich/Frankfurt deeper checks).
+- **Pass 11 (Wave 4A, COMPLETE 2026-11-13):** 105 Linktree pages + 89 SoundCloud profiles across Prague, Warsaw, Budapest, Bucharest, Zagreb, Athens, Oslo, Helsinki, Gothenburg; **50 verified leads** (Prague 3, Warsaw 2, Budapest 4, Bucharest 8, Zagreb 5, Athens 9, Oslo 9, Helsinki 5, Gothenburg 5); 76 no-email after deeper search, 10 icon-unreadable; plus 2 London-dual-base finds to Excluded and 2 under-18 flagged (no email hunted).
+- **Still running:** Wave 4B tail (Rotterdam, Antwerp, Porto, Rome, Naples + Zurich/Munich/Frankfurt deeper checks).
