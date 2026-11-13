@@ -2,7 +2,7 @@
 
 Leads for DJs / producers / musicians based in Europe who could travel to London to perform at the gallery exhibition. **London-based artists are excluded** (owner rule, 2026-11-13). Every lead has a **publicly published** email (never guessed) and a recorded source. Machine-readable version: `leads.json`.
 
-## Verified leads in pool: 174 — 172 ready, 2 on hold (flagged)
+## Verified leads in pool: 186 — 184 ready, 2 on hold (flagged)
 
 ## Ready
 
@@ -180,6 +180,18 @@ Leads for DJs / producers / musicians based in Europe who could travel to London
 | Esteban Molina (MOLINA) | estebanmolinadj@gmail.com | DJ & producer | Milan, Italy | Melodic House / Indie Dance / Afro House | [Press kit PDF (via Linktree)](https://drive.google.com/drive/folders/13yN_Q5Gx_c5oq0NAoAqmy-8NyRpgcyup) |
 | KLËRR | leklerr6@gmail.com | Producer | Milan, Italy | Mental beats | [SoundCloud](https://soundcloud.com/leklerr) |
 | MEDUZA | jennifer.hammel@caa.com | DJ/producer trio | Milan, Italy | Melodic house | [SoundCloud](https://soundcloud.com/meduzamusic) |
+| Meraki (ofc) | bookings@merakiofc.com | DJ & Producer | Zurich, Switzerland | Peak Time / Acid / Techno | [Linktree](https://linktr.ee/meraki_ofc) |
+| Christian Schiemann | schiemann.music@gmail.com | DJ & Producer | Zurich, Switzerland | Techno | [SoundCloud](https://soundcloud.com/christian-schiemann) |
+| Replay M | stormvibezrecords@gmail.com | DJ/Producer | Zurich, Switzerland | — | [SoundCloud](https://soundcloud.com/replaym) |
+| Suki | booking@sukidj.de | DJ | Munich, Germany | Harddance / Hardtrance | [Linktree](https://linktr.ee/sukidj) |
+| DJ ALIHEN | alihenmusic@gmail.com | DJ | Munich, Germany | Techno / House / Latin / EDM | [Linktree](https://linktr.ee/alihenmusic) |
+| Gizmo_Lazar | lazargizmo@gmail.com | Beats Producer | Munich, Germany | — | [Linktree](https://linktr.ee/Gizmo_Lazar) |
+| DJ_MATA_MUNICH | max@maxklee.de | DJ | Munich, Germany | Techno | [SoundCloud](https://soundcloud.com/max-klee-56750640) |
+| Tim Strohmeyer | tim.strohmeyer@t-online.de | Producer | Munich, Germany | House / Deep House / Pop remixes | [SoundCloud](https://soundcloud.com/tim-strohmeyer) |
+| Patrick Räuber | patrick.der.raeuber@gmail.com | DJ & Producer | Munich, Germany | Techno / Electronic | [SoundCloud](https://soundcloud.com/patrick-raeuber) |
+| shivoleo (Shivo Leo) | shivo.leo@web.de | DJ/Producer/Remixer | Frankfurt, Germany | — | [Linktree](https://linktr.ee/shivoleo) |
+| Karan Walia | karan-walia@hotmail.de | Music Producer / Sound Engineer | Frankfurt, Germany | — | [SoundCloud](https://soundcloud.com/karan-walia-productions) |
+| CHRIS DI PERRI | booking@solar-sound.de | DJ & Producer | Cologne, Germany | Tech House / groove | [Linktree](https://linktr.ee/chrisdiperri) |
 
 ## On hold — flagged, do NOT outreach without the owner's decision
 
@@ -230,13 +242,10 @@ Leads for DJs / producers / musicians based in Europe who could travel to London
 - **Morgan Paris Lanza — CLOSED by audit** — Instagram bio actually read in the final tail: Seattle/Olympia gigs, US-based. No email on Linktree or Instagram. Not Europe-based.
 - **mx.pinky (Berlin) / Frank Weyzig (Amsterdam)** — Final tail: emails ARE published (mxpinkyhq@gmail.com on her Linktree; forbliss@xs4all.nl on his website contact page) but neither base is evidenced at city level. Quoted for the owner's judgment only.
 - **Strathy / DJ Babyblade (Hamburg, optional track items)** — Strathy is a Hamburg-based DJ/producer (track page opened; socials only, no email seen); his SoundCloud profile was not opened (browser ended) — unknown whether it publishes an email. DJ Babyblade never attempted. Both were optional extras.
+- **TEKIBO (Switzerland)** — Wave 4B: email tekibo.dj@hotmail.com published on Linktree, but pages say only 'based in Switzerland' — no city evidenced (Zurich gigs are gigs, not a base). Quoted for the owner's judgment.
+- **Wave 4B pending deeper checks** — The 4B browser ended mid-Cologne before the follow-the-socials checks for its no-email/icon names (Zurich: Ronny Grauer + 8 no-email names; Munich: Dany Holm, so.undso_official + 10; Frankfurt: PETER PAHN, Ulrike Schwarz, sadovoy + 9; Cologne: MICHËLON, DJ DaPisk, JuNi + 2 unopened). These are being completed in the 4B continuation — not closed as no-email yet.
 
 ## Coverage
-- **Pass 1 (search index):** 88 queries, 2 verified leads originally (1 London lead has since moved to Excluded).
-- **Pass 2 (live browser, Google):** 27 verified leads originally (3 London leads have since moved to Excluded).
-- **Pass 3 (SoundCloud-native):** 25 profiles opened, 16 verified leads (1 London lead has since moved to Excluded).
-- **Pass 4 (Wave 3, first run):** 84 Linktree pages + 54 SoundCloud profiles; 41 verified leads (Brussels 8, Stockholm 13, Copenhagen 14, Vienna 6).
-- **Pass 5 (audit re-pass of Wave 2 cities):** 71 Linktree pages audited — 24 new leads, 6 London-based into Excluded, 19 no email, 12 icon-unreadable, 6 not Europe-based.
-- **Pass 6 (Wave 3 continuation 1):** 20 new leads (Vienna +5, Lisbon 9, Dublin 6) + SEANEM flagged (stated age 12 — held).
-- **Pass 7 (Wave 3 continuation 2):** 24 new leads (Dublin +4, Hamburg 18 — Hamburg complete, Paris +2).
-- **Pass 8 (Wave 3 final tail):** Part B rotations complete — 24 new leads (Berlin 6, Amsterdam 5, Barcelona 6, Madrid 4, Milan 3); 4 reported names were already in the pool from the audit re-pass and were deduped out. **Wave 3 totals: 251 Linktree pages + 159 SoundCloud profiles opened. Wave 3 is complete.**
+- **Waves 1-3 + audit re-pass (complete):** see `leads.json` coverage passes 1-8. Totals at Wave 3 completion: 174 in pool.
+- **Pass 9 (Wave 4B, partial):** 38 Linktree pages + 15 SoundCloud profiles; **12 verified leads** (Zurich 3, Munich 6, Frankfurt 2, Cologne 1). Browser retired mid-Cologne; continuation relaunched for Cologne finish + deeper checks + Rotterdam, Antwerp, Porto, Rome, Naples.
+- **Wave 4A** (Prague, Warsaw, Budapest, Bucharest, Zagreb, Athens, Oslo, Helsinki, Gothenburg) still running at last update.

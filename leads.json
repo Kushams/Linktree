@@ -1,8 +1,8 @@
 {
   "project": "Europe DJ / producer / musician leads for UK art gallery exhibition outreach",
   "rules": "Europe-based only, EXCLUDING London-based artists (owner rule 2026-11-13: performers travel TO London). Publicly published email only, never guessed. Source recorded for every lead. Phone numbers from source pages are NOT copied into this repo export.",
-  "verified_lead_count": 174,
-  "ready_count": 172,
+  "verified_lead_count": 186,
+  "ready_count": 184,
   "hold_flagged_count": 2,
   "leads": [
     {
@@ -2788,6 +2788,198 @@
       "evidence": "No email on Linktree; Instagram bio ('Just 3 guys from Milan', 665K followers) has no email; SoundCloud bio publishes world bookings (excl. Americas) via CAA: jennifer.hammel@caa.com and maria.may@caa.com (targets confirmed). Americas booking, management and press addresses also published in the same bio (noted in wave record).",
       "flag": "",
       "status": "ready"
+    },
+    {
+      "artist_name": "Meraki (ofc)",
+      "full_name": "",
+      "email": "bookings@merakiofc.com",
+      "secondary_email": "",
+      "role": "DJ & Producer",
+      "country": "Switzerland",
+      "city": "Zurich",
+      "genre_or_style": "Peak Time / Acid / Techno",
+      "profile_url": "https://linktr.ee/meraki_ofc",
+      "source_url": "https://linktr.ee/meraki_ofc",
+      "source_platform": "Linktree",
+      "evidence": "Email as a visible 'BOOK MERAKI' link on Linktree; bio 'Zurich-based DJ & Producer'. SoundCloud bio repeats the address.",
+      "flag": "",
+      "status": "ready"
+    },
+    {
+      "artist_name": "Christian Schiemann",
+      "full_name": "",
+      "email": "schiemann.music@gmail.com",
+      "secondary_email": "",
+      "role": "DJ & Producer",
+      "country": "Switzerland",
+      "city": "Zurich",
+      "genre_or_style": "Techno",
+      "profile_url": "https://soundcloud.com/christian-schiemann",
+      "source_url": "https://soundcloud.com/christian-schiemann",
+      "source_platform": "SoundCloud",
+      "evidence": "SoundCloud bio sidebar: 'BOOKING & REMIX: schiemann.music@gmail.com'; profile location Zurich, Switzerland.",
+      "flag": "",
+      "status": "ready"
+    },
+    {
+      "artist_name": "Replay M",
+      "full_name": "",
+      "email": "stormvibezrecords@gmail.com",
+      "secondary_email": "",
+      "role": "DJ/Producer",
+      "country": "Switzerland",
+      "city": "Zurich",
+      "genre_or_style": "",
+      "profile_url": "https://soundcloud.com/replaym",
+      "source_url": "https://soundcloud.com/replaym",
+      "source_platform": "SoundCloud",
+      "evidence": "SoundCloud bio labels the address 'Demos': stormvibezrecords@gmail.com; profile location Zürich, Switzerland (a demos inbox, as published).",
+      "flag": "",
+      "status": "ready"
+    },
+    {
+      "artist_name": "Suki",
+      "full_name": "",
+      "email": "booking@sukidj.de",
+      "secondary_email": "",
+      "role": "DJ",
+      "country": "Germany",
+      "city": "Munich",
+      "genre_or_style": "Harddance / Hardtrance",
+      "profile_url": "https://linktr.ee/sukidj",
+      "source_url": "https://linktr.ee/sukidj",
+      "source_platform": "Linktree",
+      "evidence": "Email as visible 'Booking' link on Linktree; bio 'DJ from the Munich, Germany'.",
+      "flag": "",
+      "status": "ready"
+    },
+    {
+      "artist_name": "DJ ALIHEN",
+      "full_name": "",
+      "email": "alihenmusic@gmail.com",
+      "secondary_email": "",
+      "role": "DJ",
+      "country": "Germany",
+      "city": "Munich",
+      "genre_or_style": "Techno / House / Latin / EDM",
+      "profile_url": "https://linktr.ee/alihenmusic",
+      "source_url": "https://linktr.ee/alihenmusic",
+      "source_platform": "Linktree",
+      "evidence": "Linktree shows 'Email me · alihenmusic@gmail.com' in full; bio 'DJ from Munich, Germany'. (A phone/WhatsApp contact also exists on the page; no number copied, per rule.)",
+      "flag": "",
+      "status": "ready"
+    },
+    {
+      "artist_name": "Gizmo_Lazar",
+      "full_name": "",
+      "email": "lazargizmo@gmail.com",
+      "secondary_email": "",
+      "role": "Beats Producer",
+      "country": "Germany",
+      "city": "Munich",
+      "genre_or_style": "",
+      "profile_url": "https://linktr.ee/Gizmo_Lazar",
+      "source_url": "https://linktr.ee/Gizmo_Lazar",
+      "source_platform": "Linktree",
+      "evidence": "Email in Linktree bio text ('Contact: lazargizmo@gmail.com'); bio 'Beats Producer Munich'.",
+      "flag": "",
+      "status": "ready"
+    },
+    {
+      "artist_name": "DJ_MATA_MUNICH",
+      "full_name": "Max Klee",
+      "email": "max@maxklee.de",
+      "secondary_email": "",
+      "role": "DJ",
+      "country": "Germany",
+      "city": "Munich",
+      "genre_or_style": "Techno",
+      "profile_url": "https://soundcloud.com/max-klee-56750640",
+      "source_url": "https://soundcloud.com/max-klee-56750640",
+      "source_platform": "SoundCloud",
+      "evidence": "Found via SoundCloud-native People search (location Munich); bio sidebar 'Booking: max@maxklee.de'.",
+      "flag": "",
+      "status": "ready"
+    },
+    {
+      "artist_name": "Tim Strohmeyer",
+      "full_name": "",
+      "email": "tim.strohmeyer@t-online.de",
+      "secondary_email": "",
+      "role": "Producer",
+      "country": "Germany",
+      "city": "Munich",
+      "genre_or_style": "House / Deep House / Pop remixes",
+      "profile_url": "https://soundcloud.com/tim-strohmeyer",
+      "source_url": "https://soundcloud.com/tim-strohmeyer",
+      "source_platform": "SoundCloud",
+      "evidence": "SoundCloud bio: 'music producer from Munich, Germany… Contact: tim.strohmeyer@t-online.de'.",
+      "flag": "",
+      "status": "ready"
+    },
+    {
+      "artist_name": "Patrick Räuber",
+      "full_name": "",
+      "email": "patrick.der.raeuber@gmail.com",
+      "secondary_email": "",
+      "role": "DJ & Producer",
+      "country": "Germany",
+      "city": "Munich",
+      "genre_or_style": "Techno / Electronic",
+      "profile_url": "https://soundcloud.com/patrick-raeuber",
+      "source_url": "https://soundcloud.com/patrick-raeuber",
+      "source_platform": "SoundCloud",
+      "evidence": "SoundCloud bio: 'DJ and Producer from Munich, Germany. DJ Bookings: patrick.der.raeuber@gmail.com'.",
+      "flag": "",
+      "status": "ready"
+    },
+    {
+      "artist_name": "shivoleo (Shivo Leo)",
+      "full_name": "",
+      "email": "shivo.leo@web.de",
+      "secondary_email": "",
+      "role": "DJ/Producer/Remixer",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "genre_or_style": "",
+      "profile_url": "https://linktr.ee/shivoleo",
+      "source_url": "https://linktr.ee/shivoleo",
+      "source_platform": "Linktree",
+      "evidence": "Linktree shows 'Contact me · Email · shivo.leo@web.de' in full; bio 'Egyptian DJ/Producer/Remixer based in Frankfurt, Germany'.",
+      "flag": "",
+      "status": "ready"
+    },
+    {
+      "artist_name": "Karan Walia",
+      "full_name": "",
+      "email": "karan-walia@hotmail.de",
+      "secondary_email": "",
+      "role": "Music Producer / Sound Engineer",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "genre_or_style": "",
+      "profile_url": "https://soundcloud.com/karan-walia-productions",
+      "source_url": "https://soundcloud.com/karan-walia-productions",
+      "source_platform": "SoundCloud",
+      "evidence": "SoundCloud bio: 'Frankfurt based Music Producer, Sound Engineer… contact: karan-walia@hotmail.de'; profile location Frankfurt, Germany.",
+      "flag": "",
+      "status": "ready"
+    },
+    {
+      "artist_name": "CHRIS DI PERRI",
+      "full_name": "",
+      "email": "booking@solar-sound.de",
+      "secondary_email": "",
+      "role": "DJ & Producer",
+      "country": "Germany",
+      "city": "Cologne",
+      "genre_or_style": "Tech House / groove",
+      "profile_url": "https://linktr.ee/chrisdiperri",
+      "source_url": "https://linktr.ee/chrisdiperri",
+      "source_platform": "Linktree",
+      "evidence": "The address appears in the 'CLU Radio 004' mix description on his Linktree: 'Booking Contact: SOLAR Booking Email: booking@solar-sound.de' (agency address). CAUTION: his Cologne base rests on the Google result description 'DJ & Producer from Cologne Germany' — his Linktree bio itself says only 'International DJ & Producer'. Owner to judge.",
+      "flag": "",
+      "status": "ready"
     }
   ],
   "near_misses_not_verified": [
@@ -2874,6 +3066,14 @@
     {
       "name": "Strathy / DJ Babyblade (Hamburg, optional track items)",
       "note": "Strathy is a Hamburg-based DJ/producer (track page opened; socials only, no email seen); his SoundCloud profile was not opened (browser ended) — unknown whether it publishes an email. DJ Babyblade never attempted. Both were optional extras."
+    },
+    {
+      "name": "TEKIBO (Switzerland)",
+      "note": "Wave 4B: email tekibo.dj@hotmail.com published on Linktree, but pages say only 'based in Switzerland' — no city evidenced (Zurich gigs are gigs, not a base). Quoted for the owner's judgment."
+    },
+    {
+      "name": "Wave 4B pending deeper checks",
+      "note": "The 4B browser ended mid-Cologne before the follow-the-socials checks for its no-email/icon names (Zurich: Ronny Grauer + 8 no-email names; Munich: Dany Holm, so.undso_official + 10; Frankfurt: PETER PAHN, Ulrike Schwarz, sadovoy + 9; Cologne: MICHËLON, DJ DaPisk, JuNi + 2 unopened). These are being completed in the 4B continuation — not closed as no-email yet."
     }
   ],
   "coverage": {
@@ -2978,6 +3178,18 @@
       "verified_leads_new": 24,
       "duplicates_skipped": 4,
       "note": "Part B rotations complete (producer+musician x Paris, Berlin, Amsterdam, Barcelona, Madrid, Milan). 28 reported, 4 were already in the pool from the audit re-pass (Antonio Fevola, Drunk at Vogue, DJ Charly, Lapo Underground) — dedupe caught them. Close-outs resolved: Morgan Paris Lanza = US-based near-miss; Rebecca Winckworth = email published but Dublin base not evidenced. Paris producer re-run: 0 new. Wave 3 is COMPLETE."
+    },
+    "pass_9_wave4b_partial": {
+      "linktree_pages_opened": 38,
+      "soundcloud_profiles_opened": 15,
+      "verified_leads": 12,
+      "per_city": {
+        "Zurich": 3,
+        "Munich": 6,
+        "Frankfurt": 2,
+        "Cologne": 1
+      },
+      "note": "Browser retired mid-Cologne. Deeper social checks for this run's no-email/icon names were NOT yet done — continuation relaunched to finish Cologne (incl. those checks) + Rotterdam, Antwerp, Porto, Rome, Naples. DJ M0VE (Frankfurt) states age 18 — not under 18, no email anyway."
     }
   },
   "excluded_london_based": [
