@@ -14,7 +14,7 @@ Outreach lead research for a **UK art gallery exhibition**: Europe-based DJs, pr
 - One lead is on HOLD (DJ RICARDO, Madrid — page states age 16). Do not outreach to it without the owner's explicit decision.
 
 ## Status (2026-11-13)
-- **186 verified leads in pool: 184 ready + 2 on hold** (plus 15 London-based artists in the Excluded list, NOT in the pool). Waves 1-3 + audit re-pass COMPLETE (174). Wave 4 in progress: 4B partial merged (+12: Zurich 3, Munich 6, Frankfurt 2, Cologne 1); 4B continuation (Cologne finish + Rotterdam, Antwerp, Porto, Rome, Naples) and all of 4A still to merge. Held: DJ RICARDO (stated 16) and SEANEM (stated 12, parent-managed bookings).
+- **191 verified leads in pool: 189 ready + 2 on hold** (plus 15 London-based artists in the Excluded list, NOT in the pool). Waves 1-3 + audit re-pass COMPLETE (174). Wave 4 in progress: 4B merged so far +17 (Zurich 3, Munich 6, Frankfurt 2, Cologne 6); still to merge: 4B tail (Rotterdam, Antwerp, Porto, Rome, Naples + Zurich/Munich/Frankfurt deeper checks) and all of 4A (9 cities). Held: DJ RICARDO (stated 16) and SEANEM (stated 12, parent-managed bookings).
 - Pass 3 (SoundCloud-native, user's method inside SoundCloud): 25 profiles opened, 16 verified leads, 9 no-email — merged. SoundCloud-native is currently the highest-yield route per profile opened.
 - Pass 1 (search index): 88 queries, 2 verified leads. Index returns nothing for site:linktr.ee / site:soundcloud.com.
 - Pass 2 (live browser, Google site: searches): 27 verified leads — Paris, Berlin, London, Amsterdam, Barcelona, Madrid, Milan + Italy (no city). Bing was soft-blocked for site: queries; Google works for Linktree (owner's guidance, confirmed).

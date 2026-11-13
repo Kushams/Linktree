@@ -2,7 +2,7 @@
 
 Leads for DJs / producers / musicians based in Europe who could travel to London to perform at the gallery exhibition. **London-based artists are excluded** (owner rule, 2026-11-13). Every lead has a **publicly published** email (never guessed) and a recorded source. Machine-readable version: `leads.json`.
 
-## Verified leads in pool: 186 — 184 ready, 2 on hold (flagged)
+## Verified leads in pool: 191 — 189 ready, 2 on hold (flagged)
 
 ## Ready
 
@@ -192,6 +192,11 @@ Leads for DJs / producers / musicians based in Europe who could travel to London
 | shivoleo (Shivo Leo) | shivo.leo@web.de | DJ/Producer/Remixer | Frankfurt, Germany | — | [Linktree](https://linktr.ee/shivoleo) |
 | Karan Walia | karan-walia@hotmail.de | Music Producer / Sound Engineer | Frankfurt, Germany | — | [SoundCloud](https://soundcloud.com/karan-walia-productions) |
 | CHRIS DI PERRI | booking@solar-sound.de | DJ & Producer | Cologne, Germany | Tech House / groove | [Linktree](https://linktr.ee/chrisdiperri) |
+| DAVI BPLR | Davibplrbooking@mail.de | DJ & Producer | Cologne, Germany | Afro Trance / Techno / Afro House | [SoundCloud](https://soundcloud.com/greenpartystuff) |
+| Tim Engelhardt | oliver@jackmode.com | Producer & DJ | Cologne, Germany | Melodic House / Techno | [Instagram](https://www.instagram.com/timengelhardt_music) |
+| Gourski | info@gourski.com | Producer / Sounddesigner / DJ | Cologne, Germany | Drum & Bass | [SoundCloud](https://soundcloud.com/gourski) |
+| Mira Falkenstein | info@mirafalkenstein.de | Techno DJ & Producer | Cologne, Germany | High-energy techno | [SoundCloud](https://soundcloud.com/mirafalkenstein) |
+| KLAUS F. | mail@about-repetition.com | Artist, Producer & DJ | Cologne, Germany | New Beat / EBM / Wave / Industrial / Techno | [SoundCloud](https://soundcloud.com/klaus-froebel) |
 
 ## On hold — flagged, do NOT outreach without the owner's decision
 
@@ -247,5 +252,6 @@ Leads for DJs / producers / musicians based in Europe who could travel to London
 
 ## Coverage
 - **Waves 1-3 + audit re-pass (complete):** see `leads.json` coverage passes 1-8. Totals at Wave 3 completion: 174 in pool.
-- **Pass 9 (Wave 4B, partial):** 38 Linktree pages + 15 SoundCloud profiles; **12 verified leads** (Zurich 3, Munich 6, Frankfurt 2, Cologne 1). Browser retired mid-Cologne; continuation relaunched for Cologne finish + deeper checks + Rotterdam, Antwerp, Porto, Rome, Naples.
-- **Wave 4A** (Prague, Warsaw, Budapest, Bucharest, Zagreb, Athens, Oslo, Helsinki, Gothenburg) still running at last update.
+- **Pass 9 (Wave 4B, first run):** 38 Linktree pages + 15 SoundCloud profiles; 12 verified leads (Zurich 3, Munich 6, Frankfurt 2, Cologne 1).
+- **Pass 10 (Wave 4B continuation):** Cologne completed — 14 Linktree pages + 14 SoundCloud profiles; **5 verified leads**; Cologne's no-email/icon names all deeper-checked and closed.
+- **Still running:** Wave 4A (9 cities); Wave 4B tail (Rotterdam, Antwerp, Porto, Rome, Naples + Zurich/Munich/Frankfurt deeper checks).

@@ -1,8 +1,8 @@
 {
   "project": "Europe DJ / producer / musician leads for UK art gallery exhibition outreach",
   "rules": "Europe-based only, EXCLUDING London-based artists (owner rule 2026-11-13: performers travel TO London). Publicly published email only, never guessed. Source recorded for every lead. Phone numbers from source pages are NOT copied into this repo export.",
-  "verified_lead_count": 186,
-  "ready_count": 184,
+  "verified_lead_count": 191,
+  "ready_count": 189,
   "hold_flagged_count": 2,
   "leads": [
     {
@@ -2980,6 +2980,86 @@
       "evidence": "The address appears in the 'CLU Radio 004' mix description on his Linktree: 'Booking Contact: SOLAR Booking Email: booking@solar-sound.de' (agency address). CAUTION: his Cologne base rests on the Google result description 'DJ & Producer from Cologne Germany' — his Linktree bio itself says only 'International DJ & Producer'. Owner to judge.",
       "flag": "",
       "status": "ready"
+    },
+    {
+      "artist_name": "DAVI BPLR",
+      "full_name": "Davidson",
+      "email": "Davibplrbooking@mail.de",
+      "secondary_email": "",
+      "role": "DJ & Producer",
+      "country": "Germany",
+      "city": "Cologne",
+      "genre_or_style": "Afro Trance / Techno / Afro House",
+      "profile_url": "https://soundcloud.com/greenpartystuff",
+      "source_url": "https://soundcloud.com/greenpartystuff",
+      "source_platform": "SoundCloud",
+      "evidence": "Email shown as an email link in the SoundCloud bio sidebar. Base: his Linktree states 'DAVI BPLR (BIPOLAR) IS A DJ AND PRODUCER FROM COLOGNE/BERLIN' — DUAL BASE Cologne/Berlin as he states it; filed under Cologne (the search city) with the dual base recorded.",
+      "flag": "",
+      "status": "ready"
+    },
+    {
+      "artist_name": "Tim Engelhardt",
+      "full_name": "",
+      "email": "oliver@jackmode.com",
+      "secondary_email": "polina@jackmode.com",
+      "role": "Producer & DJ",
+      "country": "Germany",
+      "city": "Cologne",
+      "genre_or_style": "Melodic House / Techno",
+      "profile_url": "https://linktr.ee/timengelhardt",
+      "source_url": "https://www.instagram.com/timengelhardt_music",
+      "source_platform": "Instagram",
+      "evidence": "Linktree email icon unreadable and bio 'Producer & DJ 📍 Cologne, Germany'; Instagram bio publishes 'Booking EU: oliver@jackmode.com / Booking NA/ROW: polina@jackmode.com / Management: marcel@tim-engelhardt.com' (Jackmode agency). EU booking recorded as primary (most relevant for a UK event); NA/ROW as secondary; management address in this note.",
+      "flag": "",
+      "status": "ready"
+    },
+    {
+      "artist_name": "Gourski",
+      "full_name": "Daniel Gourski",
+      "email": "info@gourski.com",
+      "secondary_email": "",
+      "role": "Producer / Sounddesigner / DJ",
+      "country": "Germany",
+      "city": "Cologne",
+      "genre_or_style": "Drum & Bass",
+      "profile_url": "https://soundcloud.com/gourski",
+      "source_url": "https://soundcloud.com/gourski",
+      "source_platform": "SoundCloud",
+      "evidence": "SoundCloud bio sidebar: 'Bookings & Contact: info@gourski.com'; profile location 'Cologne'; bio 'Producer / Sounddesigner / DJ Cologne, Germany'.",
+      "flag": "",
+      "status": "ready"
+    },
+    {
+      "artist_name": "Mira Falkenstein",
+      "full_name": "",
+      "email": "info@mirafalkenstein.de",
+      "secondary_email": "",
+      "role": "Techno DJ & Producer",
+      "country": "Germany",
+      "city": "Cologne",
+      "genre_or_style": "High-energy techno",
+      "profile_url": "https://soundcloud.com/mirafalkenstein",
+      "source_url": "https://soundcloud.com/mirafalkenstein",
+      "source_platform": "SoundCloud",
+      "evidence": "SoundCloud sidebar Contact link target is mailto:info@mirafalkenstein.de (read directly); bio 'Mira Falkenstein is a techno DJ and producer based in Cologne, Germany' (regular at Bootshaus, Cologne).",
+      "flag": "",
+      "status": "ready"
+    },
+    {
+      "artist_name": "KLAUS F.",
+      "full_name": "Klaus Froebel",
+      "email": "mail@about-repetition.com",
+      "secondary_email": "klaus.froebel@outlook.com",
+      "role": "Artist, Producer & DJ",
+      "country": "Germany",
+      "city": "Cologne",
+      "genre_or_style": "New Beat / EBM / Wave / Industrial / Techno",
+      "profile_url": "https://soundcloud.com/klaus-froebel",
+      "source_url": "https://soundcloud.com/klaus-froebel",
+      "source_platform": "SoundCloud",
+      "evidence": "SoundCloud sidebar links' targets read directly: BOOKING → mail@about-repetition.com; a second published link labelled 'PRIVATE MAIL' → klaus.froebel@outlook.com (kept as secondary; use the booking address). Bio: 'Klaus F. is a Cologne-based artist, producer and DJ'.",
+      "flag": "",
+      "status": "ready"
     }
   ],
   "near_misses_not_verified": [
@@ -3190,6 +3270,12 @@
         "Cologne": 1
       },
       "note": "Browser retired mid-Cologne. Deeper social checks for this run's no-email/icon names were NOT yet done — continuation relaunched to finish Cologne (incl. those checks) + Rotterdam, Antwerp, Porto, Rome, Naples. DJ M0VE (Frankfurt) states age 18 — not under 18, no email anyway."
+    },
+    "pass_10_wave4b_cologne": {
+      "linktree_pages_opened": 14,
+      "soundcloud_profiles_opened": 14,
+      "verified_leads": 5,
+      "note": "Cologne completed in the continuation (leads 5 / no-email 8 / icon-unreadable 4 / not-Europe 2). Still pending: Rotterdam, Antwerp, Porto, Rome, Naples + Zurich/Munich/Frankfurt deeper checks — relaunched."
     }
   },
   "excluded_london_based": [
