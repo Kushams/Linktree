@@ -2,7 +2,7 @@
 
 Leads for DJs / producers / musicians based in Europe who could travel to London to perform at the gallery exhibition. **London-based artists are excluded** (owner rule, 2026-11-13). Every lead has a **publicly published** email (never guessed) and a recorded source. Machine-readable version: `leads.json`.
 
-## Verified leads in pool: 150 — 148 ready, 2 on hold (flagged)
+## Verified leads in pool: 174 — 172 ready, 2 on hold (flagged)
 
 ## Ready
 
@@ -156,6 +156,30 @@ Leads for DJs / producers / musicians based in Europe who could travel to London
 | Sebastian Strootmann | sebastian.strootmann@gmail.com | DJ and producer | Hamburg, Germany | — | [SoundCloud](https://soundcloud.com/sebastianstrootmann) |
 | Em Wise | emwisemusic@gmail.com | Singer-songwriter and producer | Paris, France | — | [Website](https://emwisemusic.com/contact/) |
 | Anatole Pudduy (Anatole Py) | anatolepudduy1@hotmail.com | Disc-jockey & Producer | Paris, France | — | [Press kit PDF (via Linktree)](https://ugc.production.linktr.ee/58883978-d130-4e90-adf7-e03133e21337_PRESS-KIT-MASTER.pdf) |
+| DJ Perez aus Berlin | ahmed.perezbaldeon@gmail.com | DJ & producer | Berlin, Germany | Tech House / Electro House, Latin electronic | [Instagram (post)](https://www.instagram.com/p/Dfj_eEOjSc6/) |
+| Rapha (rapha707) | rapha.bookings@gmail.com | DJ & producer | Berlin, Germany | — | [SoundCloud](https://soundcloud.com/rapha707) |
+| Alexander Kowalski | manuela@ad-sound.com | Techno producer, live act & DJ | Berlin, Germany | — | [Instagram](https://www.instagram.com/alexanderkowalskiofficial) |
+| Odysseus (0dysseus) | ods.net@gmail.com | DJ & producer | Berlin, Germany | Deep house | [SoundCloud](https://soundcloud.com/odysseusm) |
+| Hanno Leichtmann | mo@media-loca.com | Sound artist, music producer, curator | Berlin, Germany | — | [Instagram](https://www.instagram.com/hannoleichtmann/) |
+| ANNER (Anna L.) | annerohanner@gmail.com | Musician / singer | Berlin, Germany | Elektroclash / Hip-Hop | [Website](https://www.anner.live) |
+| Stephen Emmer | office@stephenemmer.com | Composer, mediamaker, artist and producer | Amsterdam, Netherlands | — | [Website](https://stephenemmer.com) |
+| Nobody94 | info@nobody94.com | DJ & producer | Amsterdam, Netherlands | Hypnotic techno | [Linktree](https://linktr.ee/nobody94music) |
+| Steve Johnsen | info@neversquaremusic.com | Music producer, sound facilitator, DJ | Amsterdam, Netherlands | House / electro, ambient | [SoundCloud](https://soundcloud.com/stevejohnsen) |
+| da Graca Brothers | dagracabrothers@gmail.com | Music producers, piano players and DJs | Amsterdam, Netherlands | Soulful house / disco | [SoundCloud](https://soundcloud.com/dagracabrothers) |
+| Paul Morris | contact@itspaulmorris.com | Pop singer, songwriter and actor | Amsterdam, Netherlands | — | [Website](https://www.itspaulmorris.com) |
+| A.L.J Musik | aeljeyalj@gmail.com | Music producer and songwriter | Barcelona, Spain | — | [SoundCloud](https://soundcloud.com/aljmusik) |
+| Mocha Musik | Bookings@mochamusik.com | Afro House DJ/producer | Barcelona, Spain | — | [Instagram](https://www.instagram.com/mochamusik) |
+| EDENRUSAK | barbaraspraggon@edenrusak.com | Producer | Barcelona, Spain | House / Techno, organic textures | [Instagram](https://www.instagram.com/edenrusak_) |
+| Sergi Estella | sergiestellaoficial@gmail.com | One-man band, multi-instrumentalist, blues composer | Barcelona, Spain | — | [Website](https://sergiestella.com/en/) |
+| Alejandro Nin | alejandroning@gmail.com | Musician and film composer, guitarist | Barcelona, Spain | — | [Website (ReelCrafter reel)](https://play.reelcrafter.com/Alejandroning/General_Reel) |
+| Marta Garrett | martamusical@gmail.com | (Jazz) singer, songwriter, session musician, educator | Barcelona, Spain | — | [Website](https://martagarrett.com/contact) |
+| Sofia Cristo | diego@suspiriaproducciones.com | DJ & producer | Madrid, Spain | Hard dance / hyper techno / neorave | [Instagram](https://www.instagram.com/sofiacristo_cristo) |
+| LA SANTA | bookings@lasantamusic.com | DJ, producer & remixer (founder, Redolent Music) | Madrid, Spain | — | [SoundCloud](https://soundcloud.com/lasantadj) |
+| FulaJazz | fulajazz@outlook.com | Producer | Madrid, Spain | House / Acid Jazz / Funk | [Linktree](https://linktr.ee/fulajazz) |
+| Tiago Borges | tiagoborgesofficial@gmail.com | DJ & music producer | Madrid, Spain | Tech house | [Instagram](https://www.instagram.com/tiagoborgesmusic) |
+| Esteban Molina (MOLINA) | estebanmolinadj@gmail.com | DJ & producer | Milan, Italy | Melodic House / Indie Dance / Afro House | [Press kit PDF (via Linktree)](https://drive.google.com/drive/folders/13yN_Q5Gx_c5oq0NAoAqmy-8NyRpgcyup) |
+| KLËRR | leklerr6@gmail.com | Producer | Milan, Italy | Mental beats | [SoundCloud](https://soundcloud.com/leklerr) |
+| MEDUZA | jennifer.hammel@caa.com | DJ/producer trio | Milan, Italy | Melodic house | [SoundCloud](https://soundcloud.com/meduzamusic) |
 
 ## On hold — flagged, do NOT outreach without the owner's decision
 
@@ -199,10 +223,13 @@ Leads for DJs / producers / musicians based in Europe who could travel to London
 - **snvm (Berlin) — CLOSED by audit** — Audit re-pass: NO email anywhere — Linktree, expanded Instagram, expanded SoundCloud, TikTok @snvmmusic. Nothing published to capture.
 - **Audit icon-unreadable set (12 pages)** — Email icon/button present but target not readable even after linked socials were checked: DJ Paris Paul (Paris, LA-based), MILLA LOU (Berlin), vollkommen.live (Berlin), Future Retro London, DJ Bone (Amsterdam search; Detroit-based), Kadinsky Sessions (Amsterdam), Jazz K (Barcelona), Karol Diac (Barcelona search), ErikBo (Barcelona search — artist is 17, phone bookings only on IG), DDDDDj (Madrid), Trade DJ (Madrid; a DJ school), Aleks Ferrero (Madrid; private IG).
 - **Audit no-email set (19 pages)** — Checked live incl. linked socials, no email published — incl. La Mona (Paris; website contact form only), Silver DeParis, DJ Baby Berlin (Philadelphia), PITZE, Bonker Squad Berlin, DEEP PRACTICE (London), DJ Fern (London), Deejay Danny, GONNI, TechnoZulo (Linktree auto-redirects to YouTube), Jodita Madrid, David Carro.
-- **Rebecca Winckworth (Dublin) — INCOMPLETE** — Wave 3: Linktree email icon unreadable; browser died during the Instagram follow-up (bio NOT read; YouTube/Facebook unchecked). Irish singer-songwriter, Dublin gig listed; contact is a form button on Linktree. Re-queued in the continuation.
 - **Wave 3 city near-miss sets (condensed)** — Full per-name detail in the wave 3 record. Brussels: 12 named no-email pages + unopened SoundCloud leftovers. Stockholm: ~20 named, incl. Jacob Karlzon (email published but Stockholm base NOT evidenced). Copenhagen: ~20 named, incl. hilalkaya (emails published, base Herning not Copenhagen) and blaaly (email published, base not evidenced). Vienna: dd.vienna, somi_showme, Scheibosan + SoundCloud sets that would not render. Lisbon: Undercover (contact behind Cloudflare Turnstile, 8 challenge attempts failed), LUX LISBON and Pedro from Lisbon (emails published but bases are London/Devon — 'Lisbon' is a stage name), Lianheart (email published, based Ibiza). Dublin: GALLACHOIR, davidmahon, Jeffcoyne_Dj, DaRoy (email published, base split Miami/Dublin), John Lynch (contact form only), Tony St Ledger (no personal email; his band is lead Trouble Pilgrims).
 - **LA Laura Paris** — Wave 3: her own site footer publishes info@la-official.com and creezy@la-official.com (MGMT, Paris address) BUT no 'based in Paris' statement for the artist herself and her Instagram/YouTube point to Los Angeles life — Paris base NOT evidenced. Addresses quoted for audit only.
 - **Paris Bryant Music / Paris Paloma / Morgan Paris Lanza** — Wave 3: 'Paris' is a name, not a base — Bryant is New York-based; Paloma is UK-based; Lanza shows US signals (her Instagram check was interrupted by the browser ending and is being re-done). No emails captured for any of them.
+- **Rebecca Winckworth (Dublin) — CLOSED by audit** — Email rebeccawinckworth@gmail.com IS published on her own website contact page (and was revealed via YouTube), BUT a Dublin base is not evidenced at city level — site calls her an 'Irish singer-songwriter' with a career in Beijing, Buenos Aires and New York; both Instagram handles unavailable. NOT a lead under the city-level rule; email quoted for the audit only.
+- **Morgan Paris Lanza — CLOSED by audit** — Instagram bio actually read in the final tail: Seattle/Olympia gigs, US-based. No email on Linktree or Instagram. Not Europe-based.
+- **mx.pinky (Berlin) / Frank Weyzig (Amsterdam)** — Final tail: emails ARE published (mxpinkyhq@gmail.com on her Linktree; forbliss@xs4all.nl on his website contact page) but neither base is evidenced at city level. Quoted for the owner's judgment only.
+- **Strathy / DJ Babyblade (Hamburg, optional track items)** — Strathy is a Hamburg-based DJ/producer (track page opened; socials only, no email seen); his SoundCloud profile was not opened (browser ended) — unknown whether it publishes an email. DJ Babyblade never attempted. Both were optional extras.
 
 ## Coverage
 - **Pass 1 (search index):** 88 queries, 2 verified leads originally (1 London lead has since moved to Excluded).
@@ -211,4 +238,5 @@ Leads for DJs / producers / musicians based in Europe who could travel to London
 - **Pass 4 (Wave 3, first run):** 84 Linktree pages + 54 SoundCloud profiles; 41 verified leads (Brussels 8, Stockholm 13, Copenhagen 14, Vienna 6).
 - **Pass 5 (audit re-pass of Wave 2 cities):** 71 Linktree pages audited — 24 new leads, 6 London-based into Excluded, 19 no email, 12 icon-unreadable, 6 not Europe-based.
 - **Pass 6 (Wave 3 continuation 1):** 20 new leads (Vienna +5, Lisbon 9, Dublin 6) + SEANEM flagged (stated age 12 — held).
-- **Pass 7 (Wave 3 continuation 2):** cumulative 188 Linktree pages + 143 SoundCloud profiles for the wave; **24 new leads** (Dublin +4, Hamburg 18 — Hamburg complete, Paris +2). Still running: Part B producer/musician rotations for Paris, Berlin, Amsterdam, Barcelona, Madrid, Milan.
+- **Pass 7 (Wave 3 continuation 2):** 24 new leads (Dublin +4, Hamburg 18 — Hamburg complete, Paris +2).
+- **Pass 8 (Wave 3 final tail):** Part B rotations complete — 24 new leads (Berlin 6, Amsterdam 5, Barcelona 6, Madrid 4, Milan 3); 4 reported names were already in the pool from the audit re-pass and were deduped out. **Wave 3 totals: 251 Linktree pages + 159 SoundCloud profiles opened. Wave 3 is complete.**
