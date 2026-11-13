@@ -2,7 +2,7 @@
 
 Leads for DJs / producers / musicians based in Europe who could travel to London to perform at the gallery exhibition. **London-based artists are excluded** (owner rule, 2026-11-13). Every lead has a **publicly published** email (never guessed) and a recorded source. Machine-readable version: `leads.json`.
 
-## Verified leads in pool: 126 — 124 ready, 2 on hold (flagged)
+## Verified leads in pool: 150 — 148 ready, 2 on hold (flagged)
 
 ## Ready
 
@@ -132,6 +132,30 @@ Leads for DJs / producers / musicians based in Europe who could travel to London
 | Gary Byrne | garypbyrne@gmail.com | Producer (modular synth / electronic), Bloop Groop founder | Dublin, Ireland | — | [YouTube](https://www.youtube.com/channel/UCCAxQErj5qUHfrY1RUl7bLg) |
 | Emma Hynes | thisisemmahynes@gmail.com | Musician (writer, singer, visual artist) | Dublin, Ireland | Alt / indie folk | [Website](https://emmahynes.com/contact-me/) |
 | Trouble Pilgrims | peteholidai77@gmail.com | Band / musicians | Dublin, Ireland | Rock / punk | [Website](https://www.thetroublepilgrims.com/) |
+| The Rattling Kind | therattlingkind@gmail.com | Music collective | Dublin, Ireland | Traditional folk | [YouTube](https://www.youtube.com/channel/UCQHof0Smwbb-Tkt3iTYZ0Zg) |
+| Casper Dublin | spheredjs@gmail.com | DJ | Dublin, Ireland | — | [Mixcloud](https://www.mixcloud.com/Casperdublin/) |
+| Sekondo | sekondomusic@gmail.com | DJ/producer duo | Dublin, Ireland | House / progressive trance | [SoundCloud](https://soundcloud.com/sekondo) |
+| Matthew Dunne | tom@juicedartistmanagement.com | DJ & producer | Dublin, Ireland | Progressive / tech / uplifting trance | [SoundCloud](https://soundcloud.com/matthew-dunne) |
+| DJ Lars Campe | info@eventdj-hamburg.de | Event DJ (weddings/corporate/private) | Hamburg, Germany | — | [Website (Impressum)](https://eventdj-hamburg.de/impressum/) |
+| Flo Motion | mela@gutistgut.com | DJ | Hamburg, Germany | — | [Instagram](https://www.instagram.com/flo_motion) |
+| UKG HAMBURG | ukghamburg@web.de | UK Garage DJ collective / event series | Hamburg, Germany | — | [Linktree](https://linktr.ee/ukghamburg) |
+| esoxmusic (Esox) | esoxmusicofficial@gmail.com | DJ & producer | Hamburg, Germany | — | [Linktree](https://linktr.ee/esoxmusic) |
+| caziono | Booking@caziono.de | Musician / producer / entertainer | Hamburg, Germany | — | [Instagram](https://www.instagram.com/caziono/) |
+| paykusten (Pay Kusten) | booking@meeronauten.de | DJ/producer | Hamburg, Germany | Edgy organic house | [Website](https://monokusten.com) |
+| Return Fall | alex@returnfall.com | Techno DJ & producer | Hamburg, Germany | — | [Linktree](https://linktr.ee/return_fall) |
+| Agassi | contact@agassi.co.uk | Band (English/German) | Hamburg, Germany | — | [Website (Impressum)](https://agassi.co.uk/impressum.html) |
+| Barbara Duchow | info@barbaraduchow.com | Singer, songwriter, performer | Hamburg, Germany | — | [Website](https://barbaraduchow.com/contact/) |
+| OBSCUR | Collective | demos@obscur-collective.com | Techno collective / label | Hamburg, Germany | — | [SoundCloud](https://soundcloud.com/obscur-collective) |
+| Dj gAZ | gAZ_Hamburg@gmx.de | DJ | Hamburg, Germany | Techno / house | [SoundCloud](https://soundcloud.com/gaz_hh) |
+| Hufnagel | martin@goodplanets.de | DJ | Hamburg, Germany | — | [SoundCloud](https://soundcloud.com/m_hufnagel) |
+| TWOFACEDKIMMY | booking@signed-agency.com | (Hard) Bounce DJ | Hamburg, Germany | — | [YouTube](https://www.youtube.com/@TWOFACEDKIMMY) |
+| House Sound of Hamburg (HSH) | norbert@hsh-radio.net | House DJ / radio show host | Hamburg, Germany | — | [Website](https://hsh-radio.net) |
+| DJ Oliver | djoliverhamburg@gmail.com | Event DJ (weddings/corporate/private) | Hamburg, Germany | House / disco edits | [SoundCloud](https://soundcloud.com/djoliverhamburg) |
+| JOST | marcel@nexera-agency.com | DJ/producer | Hamburg, Germany | — | [SoundCloud](https://soundcloud.com/djostmusic) |
+| Mika Henning | mail@michaela-henning.de | DJ & producer | Hamburg, Germany | Melodic house / techno | [SoundCloud](https://soundcloud.com/mikahenning) |
+| Sebastian Strootmann | sebastian.strootmann@gmail.com | DJ and producer | Hamburg, Germany | — | [SoundCloud](https://soundcloud.com/sebastianstrootmann) |
+| Em Wise | emwisemusic@gmail.com | Singer-songwriter and producer | Paris, France | — | [Website](https://emwisemusic.com/contact/) |
+| Anatole Pudduy (Anatole Py) | anatolepudduy1@hotmail.com | Disc-jockey & Producer | Paris, France | — | [Press kit PDF (via Linktree)](https://ugc.production.linktr.ee/58883978-d130-4e90-adf7-e03133e21337_PRESS-KIT-MASTER.pdf) |
 
 ## On hold — flagged, do NOT outreach without the owner's decision
 
@@ -140,7 +164,7 @@ Leads for DJs / producers / musicians based in Europe who could travel to London
 | DJ RICARDO | info.djricardo@gmail.com | DJ | Madrid, Spain | Open Format | [Linktree](https://linktr.ee/iamdjricardo)  Artist states his age as 16 on the page. HOLD — do not outreach without the owner's explicit decision. |
 | SEANEM | djseanem@gmail.com | DJ & Producer | Dublin, Ireland | — | [Notion (bookings page)](https://app.notion.com/p/Bookings-Enquiries-2fc87e7cbda680738c98f499e33b30ba)  STATED AGE 12 — page says he is a 12-year-old DJ & Producer; bookings are parent-managed. Do NOT outreach without the owner's explicit decision. |
 
-## Excluded — London-based (14) — NOT in the pool, recorded only so they are never re-added
+## Excluded — London-based (15) — NOT in the pool, recorded only so they are never re-added
 
 | Artist | Email | Role | Base | Source |
 |---|---|---|---|---|
@@ -158,6 +182,7 @@ Leads for DJs / producers / musicians based in Europe who could travel to London
 | DJ Harry UK | Harry@ritzy.productions | DJ / Producer / Musician | London, United Kingdom | Linktree |
 | marinayozora (Marina Yozora) | — (none found) | Musician | London, United Kingdom | Instagram |
 | danielseankenny (Daniel Sean Kenny) | — (none found) | Musician | London, United Kingdom |  |
+| Paris Rabone | info@parisrabone.com | Producer / singer / songwriter | London, United Kingdom | [SoundCloud](https://soundcloud.com/parisrabone) |
 
 ## Near misses — checked live, NOT verified (do not use without further verification)
 - **Cem Plem** — booking.cemplem@gmail.com is visible, but no Berlin base is stated on the page.
@@ -176,11 +201,14 @@ Leads for DJs / producers / musicians based in Europe who could travel to London
 - **Audit no-email set (19 pages)** — Checked live incl. linked socials, no email published — incl. La Mona (Paris; website contact form only), Silver DeParis, DJ Baby Berlin (Philadelphia), PITZE, Bonker Squad Berlin, DEEP PRACTICE (London), DJ Fern (London), Deejay Danny, GONNI, TechnoZulo (Linktree auto-redirects to YouTube), Jodita Madrid, David Carro.
 - **Rebecca Winckworth (Dublin) — INCOMPLETE** — Wave 3: Linktree email icon unreadable; browser died during the Instagram follow-up (bio NOT read; YouTube/Facebook unchecked). Irish singer-songwriter, Dublin gig listed; contact is a form button on Linktree. Re-queued in the continuation.
 - **Wave 3 city near-miss sets (condensed)** — Full per-name detail in the wave 3 record. Brussels: 12 named no-email pages + unopened SoundCloud leftovers. Stockholm: ~20 named, incl. Jacob Karlzon (email published but Stockholm base NOT evidenced). Copenhagen: ~20 named, incl. hilalkaya (emails published, base Herning not Copenhagen) and blaaly (email published, base not evidenced). Vienna: dd.vienna, somi_showme, Scheibosan + SoundCloud sets that would not render. Lisbon: Undercover (contact behind Cloudflare Turnstile, 8 challenge attempts failed), LUX LISBON and Pedro from Lisbon (emails published but bases are London/Devon — 'Lisbon' is a stage name), Lianheart (email published, based Ibiza). Dublin: GALLACHOIR, davidmahon, Jeffcoyne_Dj, DaRoy (email published, base split Miami/Dublin), John Lynch (contact form only), Tony St Ledger (no personal email; his band is lead Trouble Pilgrims).
+- **LA Laura Paris** — Wave 3: her own site footer publishes info@la-official.com and creezy@la-official.com (MGMT, Paris address) BUT no 'based in Paris' statement for the artist herself and her Instagram/YouTube point to Los Angeles life — Paris base NOT evidenced. Addresses quoted for audit only.
+- **Paris Bryant Music / Paris Paloma / Morgan Paris Lanza** — Wave 3: 'Paris' is a name, not a base — Bryant is New York-based; Paloma is UK-based; Lanza shows US signals (her Instagram check was interrupted by the browser ending and is being re-done). No emails captured for any of them.
 
 ## Coverage
 - **Pass 1 (search index):** 88 queries, 2 verified leads originally (1 London lead has since moved to Excluded).
 - **Pass 2 (live browser, Google):** 27 verified leads originally (3 London leads have since moved to Excluded).
 - **Pass 3 (SoundCloud-native):** 25 profiles opened, 16 verified leads (1 London lead has since moved to Excluded).
-- **Pass 4 (Wave 3, first run):** 84 Linktree pages + 54 SoundCloud profiles opened; 41 verified leads (Brussels 8, Stockholm 13, Copenhagen 14, Vienna 6).
+- **Pass 4 (Wave 3, first run):** 84 Linktree pages + 54 SoundCloud profiles; 41 verified leads (Brussels 8, Stockholm 13, Copenhagen 14, Vienna 6).
 - **Pass 5 (audit re-pass of Wave 2 cities):** 71 Linktree pages audited — 24 new leads, 6 London-based into Excluded, 19 no email, 12 icon-unreadable, 6 not Europe-based.
-- **Pass 6 (Wave 3 continuation):** cumulative 141 Linktree pages + 98 SoundCloud profiles for the wave; **20 new leads** (Vienna +5, Lisbon 9, Dublin 6) + 1 flagged (SEANEM, Dublin, stated age 12 — held). Still running: Rebecca Winckworth completion, Dublin SoundCloud, Hamburg, Part B rotations.
+- **Pass 6 (Wave 3 continuation 1):** 20 new leads (Vienna +5, Lisbon 9, Dublin 6) + SEANEM flagged (stated age 12 — held).
+- **Pass 7 (Wave 3 continuation 2):** cumulative 188 Linktree pages + 143 SoundCloud profiles for the wave; **24 new leads** (Dublin +4, Hamburg 18 — Hamburg complete, Paris +2). Still running: Part B producer/musician rotations for Paris, Berlin, Amsterdam, Barcelona, Madrid, Milan.
