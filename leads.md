@@ -1,14 +1,13 @@
 # Europe music leads — UK gallery exhibition outreach
 
-Leads for DJs / producers / musicians based in Europe who could travel to the UK to perform at the gallery exhibition. Every lead has a **publicly published** email (never guessed) and a recorded source. Machine-readable version: `leads.json` (includes the evidence note for every lead).
+Leads for DJs / producers / musicians based in Europe who could travel to London to perform at the gallery exhibition. **London-based artists are excluded** (owner rule, 2026-11-13) — the performers travel TO London. Every lead has a **publicly published** email (never guessed) and a recorded source. Machine-readable version: `leads.json`.
 
-## Verified leads: 45 total — 44 ready, 1 on hold (flagged)
+## Verified leads in pool: 40 — 39 ready, 1 on hold (flagged)
 
 ## Ready
 
 | Artist | Email | Role | Base | Genre | Source |
 |---|---|---|---|---|---|
-| DJ Saint | djsaint2000@gmail.com | DJ | London, United Kingdom | — | [Instagram](https://www.instagram.com/p/DdD94PGttlr/) |
 | Ricardo Martín | bookings@ricardomartindj.com | DJ | Madrid, Spain | House / Afro / Tech / Minimal | [TikTok](https://www.tiktok.com/@ricardomartindj) |
 | PIERRE DE PARIS | djpierredeparis@gmail.com | DJ/Producer | Paris, France | House & Techno | [Linktree](https://linktr.ee/pierre_de_paris) |
 | K Ī N | julienm.prod@gmail.com | DJ/Composer | Paris, France | — | [Linktree](https://linktr.ee/kin___paris) |
@@ -19,9 +18,6 @@ Leads for DJs / producers / musicians based in Europe who could travel to the UK
 | Yunjin | yunjin.dj@gmail.com | Musician/DJ/Producer | Berlin, Germany | Jazz / electronic | [Linktree](https://linktr.ee/yunjinisadj) |
 | Acid Foxy | bildadiana@gmail.com | DJ | Berlin, Germany | — | [Linktree](https://linktr.ee/acidfoxy) |
 | Camilla Rae | florian@noisyneighbors.agency | DJ | Berlin, Germany | — | [Linktree](https://linktr.ee/bodylanguagebln) |
-| DJ YB UK | djybuk@gmail.com | DJ | London, United Kingdom | Open Format | [Linktree](https://linktr.ee/djybuk) |
-| DJSYTHER | djsyther1@gmail.com | DJ | London, United Kingdom | Multigenre | [Linktree](https://linktr.ee/DJSYTHER) |
-| La Valentina | djlavalentina@gmail.com | DJ | London, United Kingdom | Open Format / RnB | [Linktree](https://linktr.ee/lav4lentina) |
 | masmartens | masmartensdj@gmail.com | DJ | Amsterdam, Netherlands | House | [Linktree](https://linktr.ee/masmartens) |
 | Nick Julian | Nickjulianmusic@gmail.com | DJ | Amsterdam, Netherlands | House / Hard House | [Linktree](https://linktr.ee/nickjulianmusic) |
 | DJ Lise | dj.lise.bookings@gmail.com | DJ/dancer | Amsterdam, Netherlands | Kizomba / bachata / dancehall / afrohouse | [Linktree](https://linktr.ee/lisannestolte) |
@@ -43,7 +39,6 @@ Leads for DJs / producers / musicians based in Europe who could travel to the UK
 | ☆MIMI404☆ | tim@hardcore-entertainment.com | DJ | Berlin, Germany | Trance / Techno | [SoundCloud](https://soundcloud.com/mimi404dj) |
 | GiZ | ramin@endepartment.com | DJ | Berlin, Germany | House | [SoundCloud](https://soundcloud.com/gizmusic) |
 | Black 8 | booking.black8@gmail.com | DJ/Producer | Berlin, Germany | Progressive / Progressive House | [Linktree (via SoundCloud)](https://linktr.ee/black.8) |
-| BINA. | mel@sense-am.com | Musician / Singer | London, United Kingdom | Alternative | [Instagram (via SoundCloud)](https://www.instagram.com/binaofficial/) |
 | Mèraque | bookings@meraque.space | Musician / live trio | Amsterdam, Netherlands | Organic House & Downtempo | [SoundCloud](https://soundcloud.com/meraque) |
 | KEYKLAU | booking@nightvisionartists.com | Producer/DJ | Barcelona, Spain | Techno | [SoundCloud](https://soundcloud.com/keyklauu) |
 | JAROMIL | michele.pompilio1@gmail.com | DJ/Producer | Barcelona, Spain | House | [SoundCloud](https://soundcloud.com/user-449120091) |
@@ -59,6 +54,16 @@ Leads for DJs / producers / musicians based in Europe who could travel to the UK
 |---|---|---|---|---|---|---|
 | DJ RICARDO | info.djricardo@gmail.com | DJ | Madrid, Spain | Open Format | [Linktree](https://linktr.ee/iamdjricardo)  Artist states his age as 16 on the page. HOLD — do not outreach without the owner's explicit decision. |
 
+## Excluded — London-based (5) — NOT in the pool, recorded only so they are never re-added
+
+| Artist | Email | Role | Base | Source |
+|---|---|---|---|---|
+| DJ Saint | djsaint2000@gmail.com | DJ | London, United Kingdom | [Instagram](https://www.instagram.com/p/DdD94PGttlr/) |
+| DJ YB UK | djybuk@gmail.com | DJ | London, United Kingdom | [Linktree](https://linktr.ee/djybuk) |
+| DJSYTHER | djsyther1@gmail.com | DJ | London, United Kingdom | [Linktree](https://linktr.ee/DJSYTHER) |
+| La Valentina | djlavalentina@gmail.com | DJ | London, United Kingdom | [Linktree](https://linktr.ee/lav4lentina) |
+| BINA. | mel@sense-am.com | Musician / Singer | London, United Kingdom | [Instagram (via SoundCloud)](https://www.instagram.com/binaofficial/) |
+
 ## Near misses — checked live, NOT verified (do not use without further verification)
 - **1NSONGE (Paris, Linktree)** — Search snippet showed a booking email, but the live Linktree shows only a mailto icon (no visible address) and the linked contact page is a form with no email. Not verified.
 - **Simkid (London), London Elektricity, DJ Parisa, snvm (Berlin)** — Email exists only as a Linktree mailto icon/link with no visible address in this browser. Not recorded.
@@ -70,7 +75,7 @@ Leads for DJs / producers / musicians based in Europe who could travel to the UK
 - **djcharlieparis** — Based in Jamaica, not Europe — excluded.
 
 ## Coverage
-- **Pass 1 (search index):** 88 queries, 2 verified leads. The index returned no results at all for `site:linktr.ee` and `site:soundcloud.com` queries.
-- **Pass 2 (live browser, Google):** 27 verified leads across Paris, Berlin, London, Amsterdam, Barcelona, Madrid and Milan (plus one Italy lead, no base city). Google `site:` searches worked for Linktree/SoundCloud; Bing was soft-blocked.
-- **Pass 3 (SoundCloud-native):** 25 profiles opened via SoundCloud's own Search > People + location filter across all 14 cities, **16 verified leads**, 9 profiles with no email anywhere checked. Per city (opened/leads): Paris 6/3, Berlin 4/4, London 2/1, Amsterdam 2/1, Barcelona 2/2, Madrid 1/1, Milan 1/1, Brussels 1/1, Stockholm 1/0, Copenhagen 1/0, Vienna 1/0, Lisbon 1/0, Dublin 1/1, Hamburg 1/1.
-- Wave 3 (new cities, Linktree + SoundCloud-via-Google) and the Wave 2 audit re-pass (Gmail mailto-reveal + deeper social checks) are still running; their results will be merged and deduped here.
+- **Pass 1 (search index):** 88 queries, 2 verified leads originally (1 London lead has since moved to Excluded under the 2026-11-13 rule).
+- **Pass 2 (live browser, Google):** 27 verified leads originally (3 London leads have since moved to Excluded).
+- **Pass 3 (SoundCloud-native):** 25 profiles opened, 16 verified leads (1 London lead, BINA., has since moved to Excluded).
+- Wave 3 (new cities) and the Wave 2 audit re-pass are still running under the London-exclusion rule; results will be merged and deduped here.
